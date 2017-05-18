@@ -11,7 +11,17 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/sweetalert2/6.6.2/sweetalert2.min.css">
 
 	<link rel="stylesheet" type="text/css" href="css/style-main.css">
-	<link rel="stylesheet" type="text/css" href="css/style-header.css">
+	<link rel="stylesheet" type="text/css" href="css/style-frontpage.css">
+	<link rel="stylesheet" type="text/css" href="css/style-about-us.css">
+	<link rel="stylesheet" type="text/css" href="css/style-create-account-admin.css">
+	<link rel="stylesheet" type="text/css" href="css/style-create-account-user.css">
+	<link rel="stylesheet" type="text/css" href="css/style-create-event.css">
+	<link rel="stylesheet" type="text/css" href="css/style-edit-event.css">
+	<link rel="stylesheet" type="text/css" href="css/style-event.css">
+	<link rel="stylesheet" type="text/css" href="css/style-events-list.css">
+	<link rel="stylesheet" type="text/css" href="css/style-login.css">
+	<link rel="stylesheet" type="text/css" href="css/style-partners.css">
+	<link rel="stylesheet" type="text/css" href="css/style-contact.css">
 
 </head>
 <body>
@@ -25,6 +35,16 @@
 <?php
 	require_once "views/view-header.php";
 	require_once "views/view-frontpage.php";
+	require_once "views/view-about-us.php";
+	require_once "views/view-create-account-admin.php";
+	require_once "views/view-create-account-user.php";
+	require_once "views/view-create-event.php";
+	require_once "views/view-edit-event.php";
+	require_once "views/view-event.php";
+	require_once "views/view-events-list.php";
+	require_once "views/view-login.php";
+	require_once "views/view-partners.php";	
+	require_once "views/view-contact.php";
 ?>
 
 	</div> <!-- #main-wrapper -->
