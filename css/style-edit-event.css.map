@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,oCAAoC;AAEpC,oCAAoC",
+"sources": ["../scss/style-edit-event.scss"],
+"names": [],
+"file": "style-edit-event.css"
+}

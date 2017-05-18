@@ -2,6 +2,14 @@
 //		Main JS
 /**********************************/
 
+var startpage = ""; // Startside kan indsættes her
+
+
+
+/**********************************/
+//		Start Animation
+/**********************************/
+
 $( document ).ready(function() {
 	$("#header").addClass("header-start-position");
 	$(".logo-wrapper").addClass("logo-start-position");
@@ -20,6 +28,38 @@ $( document ).ready(function() {
 	    });
     });
 });
+
+
+/**********************************/
+//		Links
+/**********************************/
+
+$(document).on("click",".link", function() {
+	// Get its data-go-to attribute
+	var sGoToWindow = $(this).attr("data-go-to");
+	flowBar = sGoToWindow;
+	// If the sGoToWindow is set, hide current window and show next one
+	if (sGoToWindow != null || sGoToWindow != undefined) {
+		fnHideView();
+		$(".view-"+sGoToWindow).show();
+	} 
+
+});
+
+function fnHideView() {
+	$(".view").hide();
+}
+
+// Set new startpage
+
+setView(startpage);
+function setView(input) { 
+	
+	$(".view").hide();
+	var page = input;
+	$(".view-"+page).show();
+}
+
 
 /**********************************/
 //		Navigation (menu)
