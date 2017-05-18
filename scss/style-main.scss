@@ -15,13 +15,22 @@ $view-padding: 60px;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: $primary-font-family;
+	font-family: $primary-font;
 }
+
+h1 { font-size: 2em; font-family: $headline-font }
+h2 { font-size: 1.5em; font-family: $headline-font}
+h3 { font-size: 1.3em; font-family: $headline-font}
+h4 { font-size: 1em; font-family: $headline-font}
+h5 { font-size: 0.8em; font-family: $headline-font}
+h6 { font-size: 0.7em; font-family: $headline-font}
+p { font-size: 1em; font-family: $primary-font}
+
 
 body {
 	width: 100vw;
 	height: 100vh;
-	font-family: $primary-font-family;
+	font-family: $primary-font;
 	overflow-x: hidden;
 }
 button {
@@ -29,7 +38,11 @@ button {
 }
 
 input {
-
+	min-height: 25px;
+    outline: none;
+    border: 1px solid $gray-bg-1;
+    border-radius: 8px;
+    padding: 0 8px;
 }
 
 nav {
@@ -44,6 +57,9 @@ nav {
 	& > * {
 		margin: 10px 20px;
 		cursor: pointer;
+	}
+	& .menu-tab {
+		color: $gray-bg-1;
 	}
 }
 
@@ -75,10 +91,33 @@ header {
 
 footer { 
 	background: $backgound-color-footer;
-	height: 50px;
+	min-height: 50px;
 	width: 100vw;
 	box-shadow: 0 0 5px #888888;
 	z-index: 9;
+	& .container {
+		padding: 2em;
+	}
+	& .social-info-footer {
+		color: #FFFFFF;
+		text-align: center;
+    	font-size: 2.5em;
+    	& .fa {
+    		margin: .5em 1em;
+    	}
+    	& span {
+    		display: block;
+     	}
+	}
+	& .contact-info-footer {
+		color: #FFFFFF;
+		text-align: center;
+		margin-bottom: 1em;
+		& input {
+			display: none;
+		}
+
+	}
 }
 
 .header-wrapper {
@@ -90,8 +129,7 @@ footer {
 }
 
 .wrapper-main {
-	background-image: url('../img/bg.jpg');
-	background-size: 100% 100%;
+	background: $backgound-color;
 	width: 100vw;
 	height: 100vh;
 	position: relative;
@@ -104,6 +142,11 @@ footer {
 	padding-top: $view-padding;
 	@include display-flex();
 	@include justify-content(center);
+	flex-direction: column;
+    justify-content: space-between;
+    & .container {
+		padding-bottom: 20px;
+	}
 }
 
 .logo-wrapper {
@@ -171,10 +214,46 @@ footer {
 		display: none;
 
 	}
+	footer { 
+		& .container {
+			padding: 1em;
+		}
+		& .social-info-footer {
+			
+	    	& .fa {
+	    		margin: .5em 1em;
+	    	}
+	    	& span {
+	    		display: block;
+	    		&:nth-child(1) {
+	    			position: absolute;
+				    left: 0;
+				    top: 20px;
+	    		}
+	    		&:nth-child(2) {
+	    			position: absolute;
+				    right: 0;
+				    top: 20px;
+	    		}
+	     	}
 
+		}
+		& .contact-info-footer {
+			margin-bottom: 0;
+			& input {
+				display: block;
+				margin: 1em auto;
+				border: none;
+				width: 300px;
+			}
+
+		}
+	}
 }
 
-@media screen and ( min-width: 1200px ) {
-	
+@media screen and ( min-width: 1100px ) {
+	.container {
+		margin: 0 auto;
+	}
 }
 

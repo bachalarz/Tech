@@ -1,20 +1,16 @@
 
+/* COLORS */
+$blue-bg-1: #015BB5;
+$blue-bg-2: #0073ED;
+$blue-bg-3: #0094D6;
+$blue-bg-4: #3Eb7ED;
+$gray-bg-1: #95989A;
 
 /* GRAY BAGROUND COLOR */
 $backgound-color: #FFFFFF;
-
 /* HEADER BAGROUND COLOR */
 $backgound-color-header: #FFFFFF;
 /* FOOTER BAGROUND COLOR */
-$backgound-color-footer: #FFFFFF;
+$backgound-color-footer: $blue-bg-3;
 
-/* BUTTON COLORS */
-$primary-btn-color: #4CB897;
-$secondary-btn-color: #EE445E;
-$primary-btn-font-color: #FFFFFF;
 
-/* BORDER COLORS */
-$border-gray: #CCCCCC;
-
-/* FONT COLORS */
-$primary-font-color: #444444;

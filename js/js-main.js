@@ -25,40 +25,10 @@ $( document ).ready(function() {
 	        height: '80px'
 	    }, function() {
 	    	$(".view-frontpage").css("display", "flex").hide().fadeIn();
+	    	$(".logo-wrapper").addClass("link");
 	    });
     });
 });
-
-
-/**********************************/
-//		Links
-/**********************************/
-
-$(document).on("click",".link", function() {
-	// Get its data-go-to attribute
-	var sGoToWindow = $(this).attr("data-go-to");
-	flowBar = sGoToWindow;
-	// If the sGoToWindow is set, hide current window and show next one
-	if (sGoToWindow != null || sGoToWindow != undefined) {
-		fnHideView();
-		$(".view-"+sGoToWindow).show();
-	} 
-
-});
-
-function fnHideView() {
-	$(".view").hide();
-}
-
-// Set new startpage
-
-setView(startpage);
-function setView(input) { 
-	
-	$(".view").hide();
-	var page = input;
-	$(".view-"+page).show();
-}
 
 
 /**********************************/
@@ -69,18 +39,62 @@ var menuStatus = false;
 
 $('.ico-menu').on("click", function() {
 	if ( menuStatus == false ) {
-		menuStatus = true;
+		showMenu();
+	} else {
+		hideMenu();
+	}
+})
+
+function showMenu() {
+	menuStatus = true;
 		$('.ico-menu-burger').hide();
 		$(".ico-menu-close").css("display", "flex").hide().show();
 		$("#nav").css("display", "flex").hide().slideDown();
+}
 
-	} else {
-		menuStatus = false;
+function hideMenu() {
+	menuStatus = false;
 		$('.ico-menu-close').hide();
 		$(".ico-menu-burger").css("display", "flex").hide().show();
 		$("#nav").slideUp();
+}
+
+
+/**********************************/
+//		Links
+/**********************************/
+
+$(document).on("click",".link", function() {
+	if ( $( this ).is( ".menu-tab" ) ) {
+		$(".menu-tab").css("color", "#95989A");
+		$(this).css("color", "#015BB5");
 	}
-})
+	var sGoToWindow = $(this).attr("data-go-to");
+	flowBar = sGoToWindow;
+	if (sGoToWindow != null || sGoToWindow != undefined) {
+		fnHideView();
+		$(".view-"+sGoToWindow).css("display", "flex").hide().fadeIn();
+		if ( menuStatus !== false ) {
+			hideMenu();
+		}	
+	} 
+
+});
+
+function fnHideView() {
+	$(".view").hide();
+}
+
+// Set new startpage
+setView(startpage);
+function setView(input) { 
+	
+	$(".view").hide();
+	var page = input;
+	$(".view-"+page).css("display", "flex").hide().fadeIn();
+}
+
+
 
 
 /**********************************/
