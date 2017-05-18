@@ -1,0 +1,180 @@
+/**********************************/
+//		Main style
+/**********************************/
+
+$content-max-widht: 1100px;
+$header-height: 40px;
+$view-padding: 60px;
+
+
+@import 'constans/style-fonts';
+@import 'constans/style-colors';
+@import 'constans/sass-flexbox.scss';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: $primary-font-family;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	font-family: $primary-font-family;
+	overflow-x: hidden;
+}
+button {
+
+}
+
+input {
+
+}
+
+nav {
+	@include display-flex();
+	@include flex-direction(column);
+	@include justify-content(flex-end);
+	@include align-items(center);
+	background: $backgound-color-header;
+	display: none;
+	white-space: nowrap;
+	box-shadow: 0 0 5px #888888;
+	& > * {
+		margin: 10px 20px;
+		cursor: pointer;
+	}
+}
+
+.ico-menu {
+	@include display-flex();
+	@include justify-content(flex-end);
+	@include align-items(center);
+	margin: 12px 0 20px 0;
+
+}
+
+.ico-menu-close {
+	display: none;
+}
+
+.flex {
+	@include display-flex();
+	@include justify-content(center);
+	@include align-items(center);
+}
+
+header {
+	background: $backgound-color-header;
+	height: $header-height;
+	width: 100vw;
+	box-shadow: 0 0 5px #888888;
+	z-index: 9;
+}
+
+footer { 
+	background: $backgound-color-footer;
+	height: 50px;
+	width: 100vw;
+	box-shadow: 0 0 5px #888888;
+	z-index: 9;
+}
+
+.header-wrapper {
+	position: relative;
+	height: 100%;
+	width: 100vw;
+	@include display-flex();
+	@include justify-content(center);
+}
+
+.wrapper-main {
+	background-image: url('../img/bg.jpg');
+	background-size: 100% 100%;
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+}
+
+.view {
+	width: 100vw;
+	height: 100vh;
+	display: none;
+	padding-top: $view-padding;
+	@include display-flex();
+	@include justify-content(center);
+}
+
+.logo-wrapper {
+	background-image: url('../img/tech_logo.png');
+	background-size: 100% 100%;
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	top: -20px;
+	display: none;
+}
+
+.logo-start-position {
+	width: 200px;
+	height: 200px;
+	top: calc(50vh - 100px);
+	left: calc(50% - 100px);
+}
+.header-start-position {
+	top: -$header-height;
+	position: absolute;
+}
+
+.container {
+	width: 100%;
+	max-width: $content-max-widht;
+	margin: 0 20px;
+	position: relative;
+}
+
+.link{
+	cursor: pointer;
+}
+
+.load-symbol-wrapper {
+	@include display-flex();
+	@include justify-content(center);
+	@include align-items(center);
+	width: 100vw;
+	height: 100vh;
+	background: #FFFFFF;
+}
+
+@media screen and ( min-width: 800px ) {
+	nav {
+		height: 100%;
+		display: -webkit-box;
+	    display: -moz-box;
+	    display: -webkit-flexbox;
+	    display: -ms-flexbox;
+	    display: -webkit-flex;
+	    display: flex;
+		flex-direction: -webkit-row;
+	    flex-direction: -moz-row;
+	    flex-direction: -webkit-row;
+	    flex-direction: -ms-row;
+	    flex-direction: -webkit-row;
+	    flex-direction: row;
+		box-shadow: none;
+		& :last-child {
+			margin-right: 0;
+		}
+	}
+	.ico-menu {
+		display: none;
+
+	}
+
+}
+
+@media screen and ( min-width: 1200px ) {
+	
+}
+
