@@ -1,12 +1,10 @@
 /**********************************/
 /**********************************/
 /* Font family */
+/* COLORS */
 /* GRAY BAGROUND COLOR */
 /* HEADER BAGROUND COLOR */
 /* FOOTER BAGROUND COLOR */
-/* BUTTON COLORS */
-/* BORDER COLORS */
-/* FONT COLORS */
 /**
 * SassFlexbox
 * Manage Flexbox in Sass easily.
@@ -98,13 +96,48 @@ nav, .ico-menu, .flex, .load-symbol-wrapper {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Arimo", sans-serif; }
+
+h1 {
+  font-size: 2em;
+  font-family: "Poppins", sans-serif; }
+
+h2 {
+  font-size: 1.5em;
+  font-family: "Poppins", sans-serif; }
+
+h3 {
+  font-size: 1.3em;
+  font-family: "Poppins", sans-serif; }
+
+h4 {
+  font-size: 1em;
+  font-family: "Poppins", sans-serif; }
+
+h5 {
+  font-size: 0.8em;
+  font-family: "Poppins", sans-serif; }
+
+h6 {
+  font-size: 0.7em;
+  font-family: "Poppins", sans-serif; }
+
+p {
+  font-size: 1em;
+  font-family: "Arimo", sans-serif; }
 
 body {
   width: 100vw;
   height: 100vh;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Arimo", sans-serif;
   overflow-x: hidden; }
+
+input {
+  min-height: 25px;
+  outline: none;
+  border: 1px solid #95989A;
+  border-radius: 8px;
+  padding: 0 8px; }
 
 nav {
   background: #FFFFFF;
@@ -114,6 +147,8 @@ nav {
   nav > * {
     margin: 10px 20px;
     cursor: pointer; }
+  nav .menu-tab {
+    color: #95989A; }
 
 .ico-menu {
   margin: 12px 0 20px 0; }
@@ -129,11 +164,27 @@ header {
   z-index: 9; }
 
 footer {
-  background: #FFFFFF;
-  height: 50px;
+  background: #0094D6;
+  min-height: 50px;
   width: 100vw;
   box-shadow: 0 0 5px #888888;
   z-index: 9; }
+  footer .container {
+    padding: 2em; }
+  footer .social-info-footer {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 2.5em; }
+    footer .social-info-footer .fa {
+      margin: .5em 1em; }
+    footer .social-info-footer span {
+      display: block; }
+  footer .contact-info-footer {
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 1em; }
+    footer .contact-info-footer input {
+      display: none; }
 
 .header-wrapper {
   position: relative;
@@ -141,8 +192,7 @@ footer {
   width: 100vw; }
 
 .wrapper-main {
-  background-image: url("../img/bg.jpg");
-  background-size: 100% 100%;
+  background: #FFFFFF;
   width: 100vw;
   height: 100vh;
   position: relative; }
@@ -151,7 +201,11 @@ footer {
   width: 100vw;
   height: 100vh;
   display: none;
-  padding-top: 60px; }
+  padding-top: 60px;
+  flex-direction: column;
+  justify-content: space-between; }
+  .view .container {
+    padding-bottom: 20px; }
 
 .logo-wrapper {
   background-image: url("../img/tech_logo.png");
@@ -206,6 +260,31 @@ footer {
       margin-right: 0; }
 
   .ico-menu {
-    display: none; } }
+    display: none; }
+
+  footer .container {
+    padding: 1em; }
+  footer .social-info-footer .fa {
+    margin: .5em 1em; }
+  footer .social-info-footer span {
+    display: block; }
+    footer .social-info-footer span:nth-child(1) {
+      position: absolute;
+      left: 0;
+      top: 20px; }
+    footer .social-info-footer span:nth-child(2) {
+      position: absolute;
+      right: 0;
+      top: 20px; }
+  footer .contact-info-footer {
+    margin-bottom: 0; }
+    footer .contact-info-footer input {
+      display: block;
+      margin: 1em auto;
+      border: none;
+      width: 300px; } }
+@media screen and (min-width: 1100px) {
+  .container {
+    margin: 0 auto; } }
 
 /*# sourceMappingURL=style-main.css.map */
