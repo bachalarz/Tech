@@ -18,12 +18,12 @@ $view-padding: 60px;
 	font-family: $primary-font;
 }
 
-h1 { font-size: 2em; font-family: $headline-font }
-h2 { font-size: 1.5em; font-family: $headline-font}
-h3 { font-size: 1.3em; font-family: $headline-font}
-h4 { font-size: 1em; font-family: $headline-font}
-h5 { font-size: 0.8em; font-family: $headline-font}
-h6 { font-size: 0.7em; font-family: $headline-font}
+h1 { font-size: 2em; font-family: $headline-font; text-align: center; }
+h2 { font-size: 1.5em; font-family: $headline-font; text-align: center;}
+h3 { font-size: 1.3em; font-family: $headline-font; text-align: center; }
+h4 { font-size: 1em; font-family: $headline-font; text-align: center;}
+h5 { font-size: 0.8em; font-family: $headline-font; text-align: center;}
+h6 { font-size: 0.7em; font-family: $headline-font; text-align: center;}
 p { font-size: 1em; font-family: $primary-font}
 
 

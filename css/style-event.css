@@ -1,4 +1,19 @@
 /**********************************/
 /**********************************/
+.event-partners {
+  display: block; }
+
+.event-partner-logo {
+  max-width: 150px;
+  max-height: 150px; }
+
+@media screen and (min-width: 800px) {
+  .event-partners {
+    display: flex;
+    justify-content: space-around; }
+
+  .event-partner-logo {
+    max-width: 150px;
+    max-height: 150px; } }
 
 /*# sourceMappingURL=style-event.css.map */
