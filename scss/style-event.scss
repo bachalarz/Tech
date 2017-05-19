@@ -2,13 +2,20 @@
 //		Event
 /**********************************/
 
+@import 'constans/style-fonts';
+@import 'constans/style-colors';
+@import 'constans/sass-flexbox.scss';
+
+
 .event-partners {
 	display: block;
 }
 
 .event-partner-logo {
-	max-width: 150px;
-	max-height: 150px;
+	width: 150px;
+	height: 150px;
+	object-fit: contain;
+
 }
 
 
@@ -17,9 +24,9 @@
 		display: flex;
 		justify-content: space-around;
 	}
-	.event-partner-logo {
-		max-width: 150px;
-		max-height: 150px;
-	}
 
+	.event-partner-logo {
+		width: 200px;
+		height: 200px;
+	}
 }

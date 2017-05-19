@@ -11,10 +11,10 @@
 		</div>
 			<h4>PARTNERS ON THIS EVENT:</h4>
 		<div class="event-partners">
-			<img src="img/sharkgaming.png" class="event-partner-logo">
-			<img src="img/sharkgaming.png" class="event-partner-logo">
-			<img src="img/sharkgaming.png" class="event-partner-logo">
-			<img src="img/sharkgaming.png" class="event-partner-logo">
+			<img src="img/partners/sharkgaming.png" class="event-partner-logo">
+			<img src="img/partners/samsung.png" class="event-partner-logo">
+			<img src="img/partners/webdanes.png" class="event-partner-logo">
+			<img src="img/partners/asus.png" class="event-partner-logo">
 		</div>
 	</div>
 	

@@ -96,37 +96,37 @@ nav, .ico-menu, .flex, .load-symbol-wrapper {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Arimo", sans-serif; }
+  font-family: "Arimo", sans-serif;
+  font-size: 16px; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase; }
 
 h1 {
   font-size: 2em;
-  font-family: "Poppins", sans-serif;
-  text-align: center; }
+  font-family: "Poppins", sans-serif; }
 
 h2 {
   font-size: 1.5em;
-  font-family: "Poppins", sans-serif;
-  text-align: center; }
+  font-family: "Poppins", sans-serif; }
 
 h3 {
   font-size: 1.3em;
-  font-family: "Poppins", sans-serif;
-  text-align: center; }
+  font-family: "Poppins", sans-serif; }
 
 h4 {
   font-size: 1em;
-  font-family: "Poppins", sans-serif;
-  text-align: center; }
+  font-family: "Poppins", sans-serif; }
 
 h5 {
   font-size: 0.8em;
-  font-family: "Poppins", sans-serif;
-  text-align: center; }
+  font-family: "Poppins", sans-serif; }
 
 h6 {
   font-size: 0.7em;
-  font-family: "Poppins", sans-serif;
-  text-align: center; }
+  font-family: "Poppins", sans-serif; }
 
 p {
   font-size: 1em;
@@ -137,6 +137,9 @@ body {
   height: 100vh;
   font-family: "Arimo", sans-serif;
   overflow-x: hidden; }
+
+button {
+  text-transform: uppercase; }
 
 input {
   min-height: 25px;
@@ -211,7 +214,8 @@ footer {
   flex-direction: column;
   justify-content: space-between; }
   .view .container {
-    padding-bottom: 20px; }
+    padding-bottom: 20px;
+    width: auto; }
 
 .logo-wrapper {
   background-image: url("../img/tech_logo.png");

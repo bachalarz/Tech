@@ -1,11 +1,63 @@
 /**********************************/
 /**********************************/
+/* Font family */
+/* COLORS */
+/* GRAY BAGROUND COLOR */
+/* HEADER BAGROUND COLOR */
+/* FOOTER BAGROUND COLOR */
+/**
+* SassFlexbox
+* Manage Flexbox in Sass easily.
+*
+* @author     Samuel Marchal (zessx)
+* @version    0.1
+*/
+/*
+    Display
+ */
+/*
+    Flex direction
+ */
+/*
+    Flex wrap
+ */
+/*
+    Flex flow
+ */
+/*
+    Order
+ */
+/*
+    Flex grow
+ */
+/*
+    Flex shrink
+ */
+/*
+    Flex basis
+ */
+/*
+    Flex
+ */
+/*
+    Justify content
+ */
+/*
+    Align items
+ */
+/*
+    Align self
+ */
+/*
+    Align content
+ */
 .event-partners {
   display: block; }
 
 .event-partner-logo {
-  max-width: 150px;
-  max-height: 150px; }
+  width: 150px;
+  height: 150px;
+  object-fit: contain; }
 
 @media screen and (min-width: 800px) {
   .event-partners {
@@ -13,7 +65,7 @@
     justify-content: space-around; }
 
   .event-partner-logo {
-    max-width: 150px;
-    max-height: 150px; } }
+    width: 200px;
+    height: 200px; } }
 
 /*# sourceMappingURL=style-event.css.map */
