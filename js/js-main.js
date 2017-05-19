@@ -84,12 +84,11 @@ function fnHideView() {
 	$(".view").hide();
 }
 
-setView(startpage);
 function setView(input) { 
 	
 	$(".view").hide();
 	var page = input;
-	$(".view-"+page).css("display", "flex").hide().fadeIn();
+	$(".view-frontpage").css("display", "flex").hide().fadeIn();
 }
 
 
