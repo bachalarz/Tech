@@ -86,6 +86,10 @@ nav {
 	}
 }
 
+.menu-profile {
+	display: none;
+}
+
 .ico-menu {
 	@include display-flex();
 	@include justify-content(flex-end);
