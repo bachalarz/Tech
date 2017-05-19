@@ -12,9 +12,11 @@
 				<p class="link menu-tab" data-go-to="about-us" >About us</p>
 				<p class="link menu-tab" data-go-to="partners">Partners</p>
 				<p class="link menu-tab" data-go-to="contact">Contact</p>
-				<p class="link menu-tab" data-go-to="login">Login</p>
+				<p class="link menu-tab menu-login" data-go-to="login">Login</p>
+				<p class="link menu-tab menu-profile" data-go-to="profile">Profile</p>
 			</nav>
 
 		</div>
-	</div>	
+	</div>
+	
 </header>

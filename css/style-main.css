@@ -172,6 +172,9 @@ nav {
   nav .menu-tab {
     color: #95989A; }
 
+.menu-profile {
+  display: none; }
+
 .ico-menu {
   margin: 12px 0 20px 0; }
 
