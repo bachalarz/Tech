@@ -16,15 +16,23 @@ $view-padding: 60px;
 	padding: 0;
 	box-sizing: border-box;
 	font-family: $primary-font;
+	font-size: 16px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 500;
+	text-align: center;
+	text-transform: uppercase;
 }
 
 h1 { font-size: 2em; font-family: $headline-font }
-h2 { font-size: 1.5em; font-family: $headline-font}
-h3 { font-size: 1.3em; font-family: $headline-font}
-h4 { font-size: 1em; font-family: $headline-font}
-h5 { font-size: 0.8em; font-family: $headline-font}
-h6 { font-size: 0.7em; font-family: $headline-font}
-p { font-size: 1em; font-family: $primary-font}
+h2 { font-size: 1.5em; font-family: $headline-font }
+h3 { font-size: 1.3em; font-family: $headline-font }
+h4 { font-size: 1em; font-family: $headline-font }
+h5 { font-size: 0.8em; font-family: $headline-font }
+h6 { font-size: 0.7em; font-family: $headline-font }
+p { font-size: 1em; font-family: $primary-font }
 
 
 body {
@@ -32,9 +40,24 @@ body {
 	height: 100vh;
 	font-family: $primary-font;
 	overflow-x: hidden;
+
 }
 button {
-
+	text-transform: uppercase;
+	border: 2px solid $blue-bg-1;
+	color: $blue-bg-1;
+	padding: 1em;
+	font-family: $primary-font;
+	background: #FFFFFF;
+	margin: 10px 0;
+	text-align: center;
+	font-size: .8em;
+	outline: none;
+	&:hover {
+		background: $blue-bg-4;
+		border: 2px solid $blue-bg-4;
+		color: #FFFFFF;
+	}
 }
 
 input {
@@ -91,7 +114,6 @@ header {
 
 footer { 
 	background: $backgound-color-footer;
-	min-height: 50px;
 	width: 100vw;
 	box-shadow: 0 0 5px #888888;
 	z-index: 9;
@@ -104,6 +126,7 @@ footer {
     	font-size: 2.5em;
     	& .fa {
     		margin: .5em 1em;
+    		font-size: 40px;
     	}
     	& span {
     		display: block;
@@ -146,6 +169,7 @@ footer {
     justify-content: space-between;
     & .container {
 		padding-bottom: 20px;
+		width: auto;
 	}
 }
 
@@ -175,6 +199,12 @@ footer {
 	max-width: $content-max-widht;
 	margin: 0 20px;
 	position: relative;
+	& .ctn-inner {
+		text-align: center;
+		& p {
+			text-align: left;
+		}
+	}
 }
 
 .link{
@@ -214,6 +244,7 @@ footer {
 		display: none;
 
 	}
+	
 	footer { 
 		& .container {
 			padding: 1em;
@@ -249,11 +280,17 @@ footer {
 
 		}
 	}
+
 }
 
 @media screen and ( min-width: 1100px ) {
 	.container {
 		margin: 0 auto;
+	}
+	.view {
+	    & .container {
+			width: 100%;
+		}
 	}
 }
 

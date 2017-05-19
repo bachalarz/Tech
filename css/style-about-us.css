@@ -51,16 +51,10 @@
 /*
     Align content
  */
-.container-inner-wrapper {
+.ctn-inner {
   border: solid;
   width: 100%; }
-  .container-inner-wrapper img {
+  .ctn-inner img {
     width: 100%; }
-
-h1, h2, h3, h4, h5, h6 {
-  text-align: center; }
-
-.view .container {
-  width: auto; }
 
 /*# sourceMappingURL=style-about-us.css.map */

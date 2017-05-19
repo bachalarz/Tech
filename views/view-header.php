@@ -10,7 +10,7 @@
 			<nav id="nav">
 				<p class="link menu-tab" data-go-to="events-list">Events</p>
 				<p class="link menu-tab" data-go-to="about-us" >About us</p>
-				<p class="link menu-tab" data-go-to="partners">Partneres</p>
+				<p class="link menu-tab" data-go-to="partners">Partners</p>
 				<p class="link menu-tab" data-go-to="contact">Contact</p>
 				<p class="link menu-tab" data-go-to="login">Login</p>
 			</nav>
