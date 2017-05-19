@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,oCAAoC;AAEpC,oCAAoC",
-"sources": ["../scss/style-about-us.scss"],
+"mappings": "AAAA,oCAAoC;AAEpC,oCAAoC;ACDpC,iBAAiB;ACAjB,YAAY;AAOZ,yBAAyB;AAEzB,2BAA2B;AAE3B,2BAA2B;ACZ3B;;;;;;EAME;AAGF;;GAEG;AAoBH;;GAEG;AAoDH;;GAEG;AAgCH;;GAEG;AAMH;;GAEG;AAUH;;GAEG;AASH;;GAEG;AASH;;GAEG;AAQH;;GAEG;AAOH;;GAEG;AA0DH;;GAEG;AAkDH;;GAEG;AAkDH;;GAEG;AHjVH,wBAAyB;EACxB,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,IAAI;EAIX,4BAAM;IACL,KAAK,EAAE,IAAI;;AAQb,sBAAuB;EACtB,UAAU,EAAE,MAAM;;AAKf,gBAAa;EACf,KAAK,EAAE,IAAI",
+"sources": ["../scss/style-about-us.scss","../scss/constans/style-fonts.scss","../scss/constans/style-colors.scss","../scss/constans/sass-flexbox.scss"],
 "names": [],
 "file": "style-about-us.css"
 }

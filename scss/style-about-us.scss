@@ -2,3 +2,33 @@
 //		About us
 /**********************************/
 
+@import 'constans/style-fonts';
+@import 'constans/style-colors';
+@import 'constans/sass-flexbox.scss';
+
+
+.container-inner-wrapper {
+	border: solid;
+	width: 100%;
+	&-element {
+		
+	}
+	& img {
+		width: 100%;
+	}
+}
+
+
+
+// SKAL FJERNES
+
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+}
+
+
+.view {
+    & .container {
+		width: auto;
+	}
+}
