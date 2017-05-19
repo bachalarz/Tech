@@ -2,7 +2,12 @@
 //		Main JS
 /**********************************/
 
+<<<<<<< HEAD
 var startpage = "about-us"; // Startside kan indsættes her
+=======
+var startpage = "event"; // Startside kan indsættes her
+
+>>>>>>> origin/master
 
 
 /**********************************/
