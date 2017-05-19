@@ -44,6 +44,20 @@ body {
 }
 button {
 	text-transform: uppercase;
+	border: 2px solid $blue-bg-1;
+	color: $blue-bg-1;
+	padding: 1em;
+	font-family: $primary-font;
+	background: #FFFFFF;
+	margin: 10px 0;
+	text-align: center;
+	font-size: .8em;
+	outline: none;
+	&:hover {
+		background: $blue-bg-4;
+		border: 2px solid $blue-bg-4;
+		color: #FFFFFF;
+	}
 }
 
 input {
@@ -100,7 +114,6 @@ header {
 
 footer { 
 	background: $backgound-color-footer;
-	min-height: 50px;
 	width: 100vw;
 	box-shadow: 0 0 5px #888888;
 	z-index: 9;
@@ -113,6 +126,7 @@ footer {
     	font-size: 2.5em;
     	& .fa {
     		margin: .5em 1em;
+    		font-size: 40px;
     	}
     	& span {
     		display: block;
@@ -185,6 +199,12 @@ footer {
 	max-width: $content-max-widht;
 	margin: 0 20px;
 	position: relative;
+	& .ctn-inner {
+		text-align: center;
+		& p {
+			text-align: left;
+		}
+	}
 }
 
 .link{
@@ -224,6 +244,7 @@ footer {
 		display: none;
 
 	}
+	
 	footer { 
 		& .container {
 			padding: 1em;
@@ -259,11 +280,17 @@ footer {
 
 		}
 	}
+
 }
 
 @media screen and ( min-width: 1100px ) {
 	.container {
 		margin: 0 auto;
+	}
+	.view {
+	    & .container {
+			width: 100%;
+		}
 	}
 }
 

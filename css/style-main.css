@@ -139,7 +139,20 @@ body {
   overflow-x: hidden; }
 
 button {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  border: 2px solid #015BB5;
+  color: #015BB5;
+  padding: 1em;
+  font-family: "Arimo", sans-serif;
+  background: #FFFFFF;
+  margin: 10px 0;
+  text-align: center;
+  font-size: .8em;
+  outline: none; }
+  button:hover {
+    background: #3Eb7ED;
+    border: 2px solid #3Eb7ED;
+    color: #FFFFFF; }
 
 input {
   min-height: 25px;
@@ -174,7 +187,6 @@ header {
 
 footer {
   background: #0094D6;
-  min-height: 50px;
   width: 100vw;
   box-shadow: 0 0 5px #888888;
   z-index: 9; }
@@ -185,7 +197,8 @@ footer {
     text-align: center;
     font-size: 2.5em; }
     footer .social-info-footer .fa {
-      margin: .5em 1em; }
+      margin: .5em 1em;
+      font-size: 40px; }
     footer .social-info-footer span {
       display: block; }
   footer .contact-info-footer {
@@ -241,6 +254,10 @@ footer {
   max-width: 1100px;
   margin: 0 20px;
   position: relative; }
+  .container .ctn-inner {
+    text-align: center; }
+    .container .ctn-inner p {
+      text-align: left; }
 
 .link {
   cursor: pointer; }
@@ -295,6 +312,9 @@ footer {
       width: 300px; } }
 @media screen and (min-width: 1100px) {
   .container {
-    margin: 0 auto; } }
+    margin: 0 auto; }
+
+  .view .container {
+    width: 100%; } }
 
 /*# sourceMappingURL=style-main.css.map */
