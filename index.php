@@ -22,7 +22,6 @@
 	<link rel="stylesheet" type="text/css" href="css/style-login.css">
 	<link rel="stylesheet" type="text/css" href="css/style-partners.css">
 	<link rel="stylesheet" type="text/css" href="css/style-contact.css">
-
 </head>
 <body>
 
