@@ -224,6 +224,14 @@ footer {
 }
 
 @media screen and ( min-width: 800px ) {
+	.ctn-inner { 
+		display: -webkit-box;
+	    display: -moz-box;
+	    display: -webkit-flexbox;
+	    display: -ms-flexbox;
+	    display: -webkit-flex;
+	    display: flex;
+	}
 	nav {
 		height: 100%;
 		display: -webkit-box;
@@ -295,7 +303,8 @@ footer {
 			
 		}
 	}
-
+	
+	
 }
 
 @media screen and ( min-width: 1600px ) {
