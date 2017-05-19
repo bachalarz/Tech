@@ -2,7 +2,7 @@
 //		Main JS
 /**********************************/
 
-var startpage = ""; // Startside kan indsættes her
+var startpage = "event"; // Startside kan indsættes her
 
 
 
@@ -24,7 +24,7 @@ $( document ).ready(function() {
 	        width: '100px',
 	        height: '80px'
 	    }, function() {
-	    	$(".view-frontpage").css("display", "flex").hide().fadeIn();
+	    	$(".view-"+startpage).css("display", "flex").hide().fadeIn();
 	    	$(".logo-wrapper").addClass("link");
 	    });
     });
