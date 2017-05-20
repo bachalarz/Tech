@@ -5,8 +5,8 @@
 var loginStatus = false; // true / false 
 
 var userInfo = {
-    firstName: "admin",
-    lastName: "jensen",
+    firstName: "Jesper",
+    lastName: "Smith",
     email: "a@a.dk",
     password: "123",
     role: "admin" // user / admin
@@ -83,4 +83,3 @@ $("#btn-edit-user").click(function(){
             text: '',   
         });
 });
-
