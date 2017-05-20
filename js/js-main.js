@@ -5,7 +5,6 @@
 var startpage = "event"; // Startside kan indsættes her
 
 
-
 /**********************************/
 //		Start Animation
 /**********************************/
@@ -85,18 +84,17 @@ function fnHideView() {
 	$(".view").hide();
 }
 
-// Set new startpage
-setView(startpage);
 function setView(input) { 
 	
 	$(".view").hide();
 	var page = input;
-	$(".view-"+page).css("display", "flex").hide().fadeIn();
+	$(".view-frontpage").css("display", "flex").hide().fadeIn();
 }
-
-
 
 
 /**********************************/
 //		Functions
 /**********************************/
+
+
+
