@@ -69,3 +69,18 @@ $("#btn-login").click(function(){
 });
 
 
+// Edit user
+
+$("#btn-edit-user").click(function(){
+	userInfo.firstName = $("#txt-edit-user-first-name").val();
+    userInfo.lastName = $("#txt-edit-user-last-name").val();
+    userInfo.email = $("#txt-edit-user-email").val();
+    userInfo.password = $("#txt-edit-user-password").val();
+    userInfo.role = $("#txt-edit-user-role").val(); // user / admin
+    $("#txt-create-user-first-name, #txt-create-user-last-name, #txt-create-user-email, #txt-create-user-password").val("")
+    swal({
+            title: 'Your profile has been updated!',
+            text: '',   
+        });
+});
+
