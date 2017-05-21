@@ -225,9 +225,9 @@
     margin-bottom: 40px; }
     .noslide-container .noslide {
       border: 1px solid #95989A;
-      max-width: 30%; }
+      max-width: 25%; }
       .noslide-container .noslide p {
-        padding: 10px; }
+        padding: 20px; }
       .noslide-container .noslide img {
         max-width: 100%; }
       .noslide-container .noslide .noslide-actions {
