@@ -52,6 +52,7 @@
 
 
 	<script src="js/js-main.js"></script>
+	<script src="js/js-event.js"></script>
 
 
 </body>
