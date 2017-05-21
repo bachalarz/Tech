@@ -33,13 +33,13 @@
 		<h2>YOU MIGHT ALSO LIKE</h2>
 		<div class="slideshow-container">
   			<div class="mySlides fade">
-  				<img src="img/placeholder/ipad.jpg">
+  				<img src="img/placeholder/seminar.jpg">
   				<div>
   					<p>
   						Lorem Ipsum er ganske enkelt fyldtekst fra print- og typografiindustrien. Lorem Ipsum har været standard fyldtekst siden 1500-tallet, hvor en ukendt trykker sammensatte en tilfældig spalte for at trykke en bog til sammenligning af forskellige skrifttyper. Lorem Ipsum har ikke alene overlevet fem århundreder, men har også vundet indpas i elektronisk typografi uden væsentlige ændringer.
   					</p>
-  					<div class="noslide-actions">
-  						<div class="noslide-action link" data-go-to="event" style="border-right: 1px solid grey; height: 100%;">READ MORE</div>
+  					<div class="slide-actions">
+  						<div class="noslide-action link" data-go-to="event" style="border-right: 1px solid #95989A; height: 100%;">READ MORE</div>
   						<div class="noslide-action link" data-go-to="payment">BOOK</div>
   					</div>
   				</div>
@@ -47,10 +47,28 @@
 
   			<div class="mySlides fade">
   				<img src="img/placeholder/employer.jpg">
+  				<div>
+  					<p>
+  						Lorem Ipsum er ganske enkelt fyldtekst fra print- og typografiindustrien. Lorem Ipsum har været standard fyldtekst siden 1500-tallet, hvor en ukendt trykker sammensatte en tilfældig spalte for at trykke en bog til sammenligning af forskellige skrifttyper. Lorem Ipsum har ikke alene overlevet fem århundreder, men har også vundet indpas i elektronisk typografi uden væsentlige ændringer.
+  					</p>
+  					<div class="slide-actions">
+  						<div class="noslide-action link" data-go-to="event" style="border-right: 1px solid #95989A; height: 100%;">READ MORE</div>
+  						<div class="noslide-action link" data-go-to="payment">BOOK</div>
+  					</div>
+  				</div>
   			</div>
 
   			<div class="mySlides fade">
-  				<img src="img/placeholder/seminar.jpg">
+  				<img src="img/placeholder/ipad.jpg">
+  				<div>
+  					<p>
+  						Lorem Ipsum er ganske enkelt fyldtekst fra print- og typografiindustrien. Lorem Ipsum har været standard fyldtekst siden 1500-tallet, hvor en ukendt trykker sammensatte en tilfældig spalte for at trykke en bog til sammenligning af forskellige skrifttyper. Lorem Ipsum har ikke alene overlevet fem århundreder, men har også vundet indpas i elektronisk typografi uden væsentlige ændringer.
+  					</p>
+  					<div class="slide-actions">
+  						<div class="noslide-action link" data-go-to="event" style="border-right: 1px solid #95989A; height: 100%;">READ MORE</div>
+  						<div class="noslide-action link" data-go-to="payment">BOOK</div>
+  					</div>
+  				</div>
   			</div>
 
   			<!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -65,19 +83,6 @@
 
 		<div class="noslide-container">
 			<div class="noslide">
-  				<img src="img/placeholder/ipad.jpg">
-  				<div>
-  					<p>
-  						Lorem Ipsum er ganske enkelt fyldtekst fra print- og typografiindustrien. Lorem Ipsum har været standard fyldtekst siden 1500-tallet, hvor en ukendt trykker sammensatte en tilfældig spalte for at trykke en bog til sammenligning af forskellige skrifttyper. Lorem Ipsum har ikke alene overlevet fem århundreder, men har også vundet indpas i elektronisk typografi uden væsentlige ændringer.
-  					</p>
-  					<div class="noslide-actions">
-  						<div class="noslide-action link" data-go-to="event" style="border-right: 1px solid grey; height: 100%;">READ MORE</div>
-  						<div class="noslide-action link" data-go-to="payment">BOOK</div>
-  					</div>
-  				</div>
-  			</div>
-
-  			<div class="noslide">
   				<img src="img/placeholder/seminar.jpg">
   				<div>
   					<p>
@@ -92,6 +97,19 @@
 
   			<div class="noslide">
   				<img src="img/placeholder/employer.jpg">
+  				<div>
+  					<p>
+  						Lorem Ipsum er ganske enkelt fyldtekst fra print- og typografiindustrien. Lorem Ipsum har været standard fyldtekst siden 1500-tallet, hvor en ukendt trykker sammensatte en tilfældig spalte for at trykke en bog til sammenligning af forskellige skrifttyper. Lorem Ipsum har ikke alene overlevet fem århundreder, men har også vundet indpas i elektronisk typografi uden væsentlige ændringer.
+  					</p>
+  					<div class="noslide-actions">
+  						<div class="noslide-action link" data-go-to="event" style="border-right: 1px solid grey; height: 100%;">READ MORE</div>
+  						<div class="noslide-action link" data-go-to="payment">BOOK</div>
+  					</div>
+  				</div>
+  			</div>
+
+  			<div class="noslide">
+  				<img src="img/placeholder/ipad.jpg">
   				<div>
   					<p>
   						Lorem Ipsum er ganske enkelt fyldtekst fra print- og typografiindustrien. Lorem Ipsum har været standard fyldtekst siden 1500-tallet, hvor en ukendt trykker sammensatte en tilfældig spalte for at trykke en bog til sammenligning af forskellige skrifttyper. Lorem Ipsum har ikke alene overlevet fem århundreder, men har også vundet indpas i elektronisk typografi uden væsentlige ændringer.

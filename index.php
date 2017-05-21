@@ -8,6 +8,7 @@
   	<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
 	<link href="https://fonts.googleapis.com/css?family=Arimo:400,400i,700|Poppins:500|Raleway:500i" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/sweetalert2/6.6.2/sweetalert2.min.css">
 
 	<link rel="stylesheet" type="text/css" href="css/style-main.css">
 	<link rel="stylesheet" type="text/css" href="css/style-frontpage.css">
@@ -21,6 +22,10 @@
 	<link rel="stylesheet" type="text/css" href="css/style-login.css">
 	<link rel="stylesheet" type="text/css" href="css/style-partners.css">
 	<link rel="stylesheet" type="text/css" href="css/style-contact.css">
+
+	<link rel="stylesheet" type="text/css" href="css/style-profile.css">
+
+
 </head>
 <body>
 
@@ -43,6 +48,7 @@
 	require_once "views/view-login.php";
 	require_once "views/view-partners.php";	
 	require_once "views/view-contact.php";
+	require_once "views/view-profile.php";
 ?>
 
 	</div> <!-- #main-wrapper -->
@@ -52,7 +58,11 @@
 
 
 	<script src="js/js-main.js"></script>
+
 	<script src="js/js-event.js"></script>
+
+	<script src="js/js-login.js"></script>
+
 
 
 </body>

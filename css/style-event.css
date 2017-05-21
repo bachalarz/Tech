@@ -100,6 +100,27 @@
   display: flex;
   justify-content: center; }
 
+.mySlides {
+  max-width: 100%;
+  border: 1px solid #95989A;
+  margin-bottom: 20px; }
+  .mySlides img {
+    width: 100%; }
+  .mySlides p {
+    padding: 10px; }
+  .mySlides .slide-actions {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    border-top: 1px solid #95989A;
+    height: 40px; }
+    .mySlides .slide-actions div {
+      width: 49%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;

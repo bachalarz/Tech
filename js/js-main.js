@@ -80,6 +80,13 @@ $(document).on("click",".link", function() {
 
 });
 
+
+
+/**********************************/
+//		Functions
+/**********************************/
+
+
 function fnHideView() {
 	$(".view").hide();
 }
@@ -91,10 +98,9 @@ function setView(input) {
 	$(".view-frontpage").css("display", "flex").hide().fadeIn();
 }
 
-
-/**********************************/
-//		Functions
-/**********************************/
-
-
+function setViewProfile() { 
+	
+	$(".view").hide();
+	$(".view-profile").css("display", "flex").hide().fadeIn();
+}
 

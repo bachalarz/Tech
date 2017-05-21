@@ -81,6 +81,37 @@
   justify-content: center;
 }
 
+
+.mySlides {
+	max-width: 100%;
+	border: 1px solid #95989A;
+	margin-bottom: 20px;
+
+	img {
+		width: 100%;
+	}
+
+	p {
+		padding: 10px;
+	}
+
+	.slide-actions {
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			width: 100%;
+			border-top: 1px solid #95989A;
+			height: 40px;
+
+			div {
+				width: 49%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+		}
+}
+
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
