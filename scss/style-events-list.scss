@@ -205,32 +205,33 @@
 
 	.ctn-inner-full{
 
-		display: flex;
-		flex-wrap: wrap;
-		width: 100%;
+		// display: flex;
+		// flex-wrap: wrap;
+		// width: 100%;
 
 		&-search{
 
-			display: flex;
-			width: 100%;
-			justify-content: center;
+			// display: flex;
+			// width: 100%;
+			// justify-content: center;
 
-			.ctn-search-btn{
-				position: relative;
-				width: auto;
-			}
+			// .ctn-search-btn{
+			// 	position: relative;
+			// 	width: auto;
+			// }
 
 			.btn-search-filter{
-				position: absolute;
-				right: -40px;
-				top: 5px;
-				border: solid black;
-				border-width: 0 3px 3px 0;
-			    display: inline-block;
-			    padding: 8px;
-			    transform: rotate(45deg);
-			   	-webkit-transform: rotate(45deg);
-			   	cursor: pointer;
+				display: none;
+				// position: absolute;
+				// right: -40px;
+				// top: 5px;
+				// border: solid black;
+				// border-width: 0 3px 3px 0;
+			 //    display: inline-block;
+			 //    padding: 8px;
+			 //    transform: rotate(45deg);
+			 //   	-webkit-transform: rotate(45deg);
+			 //   	cursor: pointer;
 	   		}
 
 		}
