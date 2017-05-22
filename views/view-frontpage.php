@@ -164,7 +164,10 @@
 				<div class="testimonial"><i class="fa fa-quote-left" aria-hidden="true"></i><br><br>Lorem Ipsum er ganske enkelt fyldtekst fra print- og typografiindustrien. <br>Lorem Ipsum har været standard fyldtekst siden 1500-tallet.<br><i class="fa fa-quote-right" aria-hidden="true"></i><br><br>
 				- SomeGuy Jensen, awesome event</div>
 			</div>
-			<img class="testimonial-image" src="img/placeholder/seminar.jpg">
+			<div class="testimonial-image">
+				
+			</div>
+			<!-- <img class="testimonial-image" src="img/placeholder/techweek.jpg"> -->
 		</div>
 		<h3>partners in crime</h3>
 		<div class="event-partners">

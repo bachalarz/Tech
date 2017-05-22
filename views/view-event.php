@@ -6,7 +6,9 @@
 		<h1>AWESOME EVENT</h1>
 		<h4 class="event-address">POLITIKENS HUS, RÅDHUSPLADSEN 1, 1550 COPENHAGEN K</h3>
 		<div class="event-container">
-			<img src="img/placeholder/ipad.jpg" class="event-image">
+    <div class="event-image">
+      <div class="filter"></div>
+    </div>
 			<div class="event-info">
 				<div class="event-date-price">
 					<h4 class="event-price">400 kr</h4>
@@ -16,7 +18,7 @@
 				Lorem Ipsum er ganske enkelt fyldtekst fra print- og typografiindustrien. Lorem Ipsum har været standard fyldtekst siden 1500-tallet, hvor en ukendt trykker sammensatte en tilfældig spalte for at trykke en bog til sammenligning af forskellige skrifttyper. Lorem Ipsum har ikke alene overlevet fem århundreder, men har også vundet indpas i elektronisk typografi uden væsentlige ændringer. Sætningen blev gjordt kendt i 1960'erne med lanceringen af Letraset-ark, som indeholdt afsnit med Lorem Ipsum, og senere med layoutprogrammer som Aldus PageMaker, som også indeholdt en udgave af Lorem Ipsum.<br><br>
 				Lorem Ipsum er ganske enkelt fyldtekst fra print- og typografiindustrien. Lorem Ipsum har været standard fyldtekst siden 1500-tallet, hvor en ukendt trykker sammensatte en tilfældig spalte for at trykke en bog til sammenligning af forskellige skrifttyper. Lorem Ipsum har ikke alene overlevet fem århundreder, men har også vundet indpas i elektronisk typografi uden væsentlige ændringer.
 				</p>
-				<p class="event-category-tags">CATEGORY: BLUE<br>
+				<p class="event-category-tags">CATEGORY: RED, WEB<br>
 				TAGS: awesome, event, tech</p>
 				<button class="link btn-event-book" data-go-to="payment">Book</button>
 			</div>
