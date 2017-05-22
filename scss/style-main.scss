@@ -65,6 +65,17 @@ input {
     outline: none;
     border: 1px solid $gray-bg-1;
     padding: 0 8px;
+    &[type="file"]{
+    	border: none;
+    }
+}
+
+textarea {
+	outline: none;
+    border: 1px solid $gray-bg-1;
+    padding: 0 8px;
+    resize: vertical;
+    min-height: 200px;
 }
 
 nav {

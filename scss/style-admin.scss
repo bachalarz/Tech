@@ -2,3 +2,15 @@
 //		Admin
 /**********************************/
 
+@import 'constans/style-colors';
+
+
+.frm-create-event {
+	& span {
+		margin-top: 20px;
+		color: $gray-bg-1;
+	}
+	& p {
+		margin-bottom: 10px;
+	}
+}

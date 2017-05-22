@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,oCAAoC;AAEpC,oCAAoC",
-"sources": ["../scss/style-admin.scss"],
+"mappings": "AAAA,oCAAoC;AAEpC,oCAAoC;ACDpC,YAAY;AAOZ,yBAAyB;AAEzB,2BAA2B;AAE3B,2BAA2B;ADJ1B,sBAAO;EACN,UAAU,EAAE,IAAI;EAChB,KAAK,ECJK,OAAO;ADMlB,mBAAI;EACH,aAAa,EAAE,IAAI",
+"sources": ["../scss/style-admin.scss","../scss/constans/style-colors.scss"],
 "names": [],
 "file": "style-admin.css"
 }
