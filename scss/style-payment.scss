@@ -1,0 +1,53 @@
+/**********************************/
+//		Payment
+/**********************************/
+
+@import 'constans/style-fonts';
+@import 'constans/style-colors';
+@import 'constans/sass-flexbox.scss';
+
+
+
+.ctn-payment {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.payment-step {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+
+	input {
+		margin: 10px;
+	}
+
+	&-3 {
+		.radio {
+			display: flex;
+			align-items: center;
+		}
+	}
+}
+
+.ctn-btn-payment{
+		display: flex;
+		justify-content: center;
+
+}
+
+#btn-payment {
+		width: 70%;
+}
+
+
+
+@media screen and ( min-width: 800px ) {
+	#btn-payment{
+		width: 250px;
+	}
+}
+
+
+

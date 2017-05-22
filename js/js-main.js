@@ -2,7 +2,7 @@
 //		Main JS
 /**********************************/
 
-var startpage = "frontpage"; // Startside kan indsættes her
+var startpage = "payment"; // Startside kan indsættes her
 
 
 /**********************************/
