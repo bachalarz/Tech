@@ -15,9 +15,25 @@
 /*
     Display
  */
+.cnt-input-wrapper, .cnt-input-wrapper .frm {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; }
+
 /*
     Flex direction
  */
+.cnt-input-wrapper, .cnt-input-wrapper .frm {
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
 /*
     Flex wrap
  */
@@ -51,5 +67,43 @@
 /*
     Align content
  */
+.cnt-input-wrapper .frm {
+  margin-bottom: 60px; }
+.cnt-input-wrapper input {
+  margin-bottom: 20px; }
+.cnt-input-wrapper button {
+  width: 100%; }
+
+@media screen and (min-width: 600px) {
+  .cnt-input-wrapper .frm {
+    max-width: 400px;
+    margin: 0 auto 60px auto; }
+  .cnt-input-wrapper .frm .frm-button-wrapper {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: end;
+    -moz-box-pack: end;
+    -webkit-flex-pack: end;
+    -ms-flex-pack: end;
+    -moz-justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+    width: 100%; }
+  .cnt-input-wrapper button {
+    width: 250px; } }
+@media screen and (min-width: 1000px) {
+  .cnt-input-wrapper {
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row; }
+    .cnt-input-wrapper .frm {
+      width: 50%; } }
 
 /*# sourceMappingURL=style-login.css.map */
