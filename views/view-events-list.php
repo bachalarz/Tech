@@ -19,29 +19,31 @@
 				</div>
 			</div>
 
-			<div id="ctn-categories">
-				<div class="btn-category" id="btn-mobile" data-show-category="">
-					<?php require_once 'icons/mobile.svg';?>
-				</div>
+			<div class="ctn-categories">
+				<div class="ctn-categories-inner">
+					<div class="btn-category" id="btn-mobile" data-show-category="">
+						<?php require_once 'icons/mobile.svg';?>
+					</div>
 
-				<div class="btn-category" id="btn-web" data-show-category="">
-					<?php require_once 'icons/web.svg';?>
-				</div>
+					<div class="btn-category" id="btn-web" data-show-category="">
+						<?php require_once 'icons/web.svg';?>
+					</div>
 
-				<div class="btn-category" id="btn-design" data-show-category="">
-					<?php require_once 'icons/design.svg';?>
-				</div>
+					<div class="btn-category" id="btn-design" data-show-category="">
+						<?php require_once 'icons/design.svg';?>
+					</div>
 
-				<div class="btn-category" id="btn-games" data-show-category="">
-					<?php require_once 'icons/gaming.svg';?>
-				</div>
+					<div class="btn-category" id="btn-games" data-show-category="">
+						<?php require_once 'icons/gaming.svg';?>
+					</div>
 
-				<div class="btn-category" id="btn-some" data-show-category="">
-					<?php require_once 'icons/some.svg';?>
-				</div>
-					
-				<div class="btn-category" id="btn-more" data-show-category="">
-					<?php require_once 'icons/more.svg';?>	
+					<div class="btn-category" id="btn-some" data-show-category="">
+						<?php require_once 'icons/some.svg';?>
+					</div>
+						
+					<div class="btn-category" id="btn-more" data-show-category="">
+						<?php require_once 'icons/more.svg';?>	
+					</div>
 				</div>
 			</div>
 
@@ -236,7 +238,7 @@
 		  				</div>
 		  			</div>
 
-
+		  			</div>
 
 
 			</div>

@@ -26,43 +26,58 @@
 		.btn-search-filter{
 			position: absolute;
 			right: -40px;
-			top: 5px;
+			top: 6px;
 			border: solid black;
 			border-width: 0 3px 3px 0;
 		    display: inline-block;
 		    padding: 8px;
+		   	cursor: pointer;
 		    transform: rotate(45deg);
 		   	-webkit-transform: rotate(45deg);
-		   	cursor: pointer;
+		   	transition: transform 500ms;
+   		}
+
+   		.btn-search-filter.open{
+   			transform: rotate(-135deg);
+    		-webkit-transform: rotate(-135deg);
+    		top: 9px;
+		   	transition: transform 500ms;
    		}
 
 	}
 
 
-	#ctn-categories {
-		margin-top: 2em;
-	    flex-basis: 100%;
-	    display: flex;
-	    justify-content: space-around;
-	    flex-wrap: wrap;
-	    display: none;
-	    background-color: white;
+	.ctn-categories {
+		    display: none;
 
-	    svg{
-		// .btn-category{
-			width: 80px;
-		    height: 80px;
-		}
+		.ctn-categories-inner{
+			margin-top: 2em;
+		    flex-basis: 100%;
+		    display: flex;
+		    justify-content: space-around;
+		    flex-wrap: wrap;
+		    background-color: white;
 
-		.btn-category{
-			flex-basis: 50%;
-			cursor: pointer;
-			display: flex;
-		    justify-content: center;
-		    padding: 1.2em;
+		    svg{
+			// .btn-category{
+				width: 80px;
+			    height: 80px;
+			}
+
+			.btn-category{
+				flex-basis: 50%;
+				cursor: pointer;
+				display: flex;
+			    justify-content: center;
+			    padding: 1.2em;
+			}
 		}
 
 	}
+
+}
+
+.search-arrow{
 
 }
 
@@ -102,7 +117,7 @@
 
 	.noslide {
 		border: 1px solid #95989A;
-		width: 25%;
+		max-width: inherit;
 		flex-basis: 100%;
 		margin-bottom: 3em;
 
@@ -221,7 +236,7 @@
 		}
 
 
-		#ctn-categories {
+		.ctn-categories {
 			margin-top: 2em;
 		    flex-basis: 100%;
 		    display: flex;
@@ -240,6 +255,43 @@
 		}
 
 
+	}
+
+
+
+
+	.ctn-events{
+
+		.noslide-container {
+			display: flex;
+			justify-content: space-around;
+			margin: 40px 0px;
+			width: 100%;
+	    	flex-wrap: wrap;
+	    }
+
+
+		.noslide {
+			width: 25%;
+
+
+			// .noslide-actions {
+			// 	display: flex;
+			// 	justify-content: space-around;
+			// 	align-items: center;
+			// 	width: 100%;
+			// 	border-top: 1px solid #95989A;
+			// 	height: 40px;
+
+			// 	div {
+			// 		width: 49%;
+			// 		display: flex;
+			// 		justify-content: center;
+			// 		align-items: center;
+			// 	}
+			// }
+		}
+		
 	}
 
 }
