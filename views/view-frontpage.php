@@ -155,13 +155,13 @@
 		<div class="container-testimonials">
 		<h2>our customers said</h2>
 			<div class="testimonials">
-				<div class="testimonial"><i class="fa fa-quote-left" aria-hidden="true"></i><br><br>Lorem Ipsum er ganske enkelt fyldtekst fra print- og typografiindustrien. <br>En ukendt trykker sammensatte en tilfældig spalte for at trykke en bog til sammenligning af forskellige skrifttyper.<br><i class="fa fa-quote-right" aria-hidden="true"></i><br><br>
+				<div class="testimonial  testimonial-1"><i class="fa fa-quote-left" aria-hidden="true"></i><br><br>Lorem Ipsum er ganske enkelt fyldtekst fra print- og typografiindustrien. <br>En ukendt trykker sammensatte en tilfældig spalte for at trykke en bog til sammenligning af forskellige skrifttyper.<br><i class="fa fa-quote-right" aria-hidden="true"></i><br><br>
 				- SomeGuy Jensen, awesome event</div>
 
-				<div class="testimonial"><i class="fa fa-quote-left" aria-hidden="true"></i><br><br>Lorem Ipsum er ganske enkelt fyldtekst fra print- og typografiindustrien.<br><i class="fa fa-quote-right" aria-hidden="true"></i><br><br><br><br>
+				<div class="testimonial testimonial-2"><i class="fa fa-quote-left" aria-hidden="true"></i><br><br>Lorem Ipsum er ganske enkelt fyldtekst fra print- og typografiindustrien.<br><i class="fa fa-quote-right" aria-hidden="true"></i><br><br><br><br>
 				- SomeGuy Jensen, awesome event</div>
 
-				<div class="testimonial"><i class="fa fa-quote-left" aria-hidden="true"></i><br><br>Lorem Ipsum er ganske enkelt fyldtekst fra print- og typografiindustrien. <br>Lorem Ipsum har været standard fyldtekst siden 1500-tallet.<br><i class="fa fa-quote-right" aria-hidden="true"></i><br><br>
+				<div class="testimonial testimonial-3"><i class="fa fa-quote-left" aria-hidden="true"></i><br><br>Lorem Ipsum er ganske enkelt fyldtekst fra print- og typografiindustrien. <br>Lorem Ipsum har været standard fyldtekst siden 1500-tallet.<br><i class="fa fa-quote-right" aria-hidden="true"></i><br><br>
 				- SomeGuy Jensen, awesome event</div>
 			</div>
 			<div class="testimonial-image">
