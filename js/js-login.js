@@ -9,7 +9,7 @@ var userInfo = {
     lastName: "Smith",
     email: "a@a.dk",
     password: "123",
-    role: "admin" // user / admin
+    role: "admin", // user / admin
 };
 
 logIn(loginStatus);
