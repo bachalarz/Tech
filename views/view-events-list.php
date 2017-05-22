@@ -21,27 +21,27 @@
 
 			<div class="ctn-categories">
 				<div class="ctn-categories-inner">
-					<div class="btn-category" id="btn-mobile" data-show-category="">
+					<div class="btn-category" id="btn-mobile" data-show-category="mobile">
 						<?php require_once 'icons/mobile.svg';?>
 					</div>
 
-					<div class="btn-category" id="btn-web" data-show-category="">
+					<div class="btn-category" id="btn-web" data-show-category="web">
 						<?php require_once 'icons/web.svg';?>
 					</div>
 
-					<div class="btn-category" id="btn-design" data-show-category="">
+					<div class="btn-category" id="btn-design" data-show-category="design">
 						<?php require_once 'icons/design.svg';?>
 					</div>
 
-					<div class="btn-category" id="btn-games" data-show-category="">
+					<div class="btn-category" id="btn-games" data-show-category="games">
 						<?php require_once 'icons/gaming.svg';?>
 					</div>
 
-					<div class="btn-category" id="btn-some" data-show-category="">
+					<div class="btn-category" id="btn-some" data-show-category="some">
 						<?php require_once 'icons/some.svg';?>
 					</div>
 						
-					<div class="btn-category" id="btn-more" data-show-category="">
+					<div class="btn-category" id="btn-more" data-show-category="more">
 						<?php require_once 'icons/more.svg';?>	
 					</div>
 				</div>
@@ -51,7 +51,7 @@
 			<div class="ctn-events">
 				<div class="noslide-container">
 
-					<div class="noslide">
+					<div class="noslide category-web">
 		  				<div class="img-slide-container img-slide-container-1">
 		            		<div class="filter filter-1">
 		            			<div class="info">
@@ -71,7 +71,7 @@
 		  				</div>
 		  			</div>
 
-		  			<div class="noslide">
+		  			<div class="noslide category-some">
 		  				<div class="img-slide-container img-slide-container-2">
 		            		<div class="filter filter-2">
 		            			<div class="info">
@@ -93,7 +93,7 @@
 
 
 
-		  			<div class="noslide">
+		  			<div class="noslide category-games">
 		  				<div class="img-slide-container img-slide-container-3">
 		            		<div class="filter filter-3">
 		            			<div class="info">
@@ -113,7 +113,7 @@
 		  				</div>
 		  			</div>
 
-		  			<div class="noslide">
+		  			<div class="noslide category-web">
 		  				<div class="img-slide-container img-slide-container-1">
 		            		<div class="filter filter-1">
 		            			<div class="info">
@@ -133,7 +133,7 @@
 		  				</div>
 		  			</div>
 
-		  			<div class="noslide">
+		  			<div class="noslide category-some">
 		  				<div class="img-slide-container img-slide-container-2">
 		            		<div class="filter filter-2">
 		            			<div class="info">
@@ -155,7 +155,7 @@
 
 
 
-		  			<div class="noslide">
+		  			<div class="noslide category-games">
 		  				<div class="img-slide-container img-slide-container-3">
 		            		<div class="filter filter-3">
 		            			<div class="info">
@@ -176,7 +176,7 @@
 		  			</div>
 
 
-		  			<div class="noslide">
+		  			<div class="noslide category-web">
 		  				<div class="img-slide-container img-slide-container-1">
 		            		<div class="filter filter-1">
 		            			<div class="info">
@@ -196,7 +196,7 @@
 		  				</div>
 		  			</div>
 
-		  			<div class="noslide">
+		  			<div class="noslide category-some">
 		  				<div class="img-slide-container img-slide-container-2">
 		            		<div class="filter filter-2">
 		            			<div class="info">
@@ -218,7 +218,7 @@
 
 
 
-		  			<div class="noslide">
+		  			<div class="noslide category-games">
 		  				<div class="img-slide-container img-slide-container-3">
 		            		<div class="filter filter-3">
 		            			<div class="info">

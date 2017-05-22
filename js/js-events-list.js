@@ -9,4 +9,16 @@ $(document).on("click", ".btn-search-filter", function() {
 		$(".btn-search-filter").removeClass("open");
 	}
 
-});
+})
+
+
+$(document).on("click", ".btn-category", function() {
+
+	var sCategory = $(this).attr("data-show-category");
+	console.log(sCategory);
+
+	$(".ctn-events .noslide-container .noslide").hide();
+
+
+})
+
