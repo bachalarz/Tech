@@ -177,7 +177,7 @@ nav {
 .ico-menu {
   margin: 12px 0 20px 0; }
 
-.ico-menu-close {
+.ico-menu-close, .menu-admin, .menu-logout {
   display: none; }
 
 header {
