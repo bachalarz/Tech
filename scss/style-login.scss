@@ -5,3 +5,65 @@
 @import 'constans/style-fonts';
 @import 'constans/style-colors';
 @import 'constans/sass-flexbox.scss';
+
+.cnt-input-wrapper {
+	@include display-flex();
+	@include flex-direction(column);
+	& .frm {
+		@include display-flex();
+		@include flex-direction(column);
+		margin-bottom: 60px;
+	}
+	& input {
+		margin-bottom: 20px;
+	}
+	& button {
+		width: 100%;
+	}
+
+}
+
+@media screen and ( min-width: 600px ) { 
+	
+	.cnt-input-wrapper {
+		& .frm {
+			    max-width: 400px;
+    			margin: 0 auto 60px auto;
+		}
+		& .frm .frm-button-wrapper {
+			display: -webkit-box;
+		    display: -moz-box;
+		    display: -webkit-flexbox;
+		    display: -ms-flexbox;
+		    display: -webkit-flex;
+		    display: flex;
+			-webkit-box-pack: end;
+		    -moz-box-pack: end;
+		    -webkit-flex-pack: end;
+		    -ms-flex-pack: end;
+		    -moz-justify-content: flex-end;
+		    -webkit-justify-content: flex-end;
+		    justify-content: flex-end;
+		    width: 100%;
+		}
+		& button {
+			width: 250px;
+		}
+	}
+
+}
+
+@media screen and ( min-width: 1000px ) { 
+	.cnt-input-wrapper {
+		-webkit-box-orient: horizontal;
+	    -moz-box-orient: horizontal;
+	    -webkit-flex-direction: row;
+	    -moz-flex-direction: row;
+	    -ms-flex-direction: row;
+	    flex-direction: row;
+	    & .frm {
+	    	width: 50%;
+	    }
+	}
+
+}
