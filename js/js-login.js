@@ -19,7 +19,7 @@ function logIn(loginStatus){
 	} else if ( loginStatus == true ) {
 		$(".menu-login").hide();
 		$(".menu-profile").show();
-
+        $(".menu-logout").show();
 	} else {
 
 	}
@@ -60,12 +60,21 @@ $("#btn-login").click(function(){
         }).then( function() {
         	loginStatus = true;
 	    	logIn(loginStatus);
-			setViewProfile(); 
+			setViewProfile();
+            if ( userInfo.role == "admin" ) {
+                $(".menu-admin").show();
+            } 
         });
 	} else {
 		swal("Wrong login!", "Try again", "error");
 		$("#txt-login-email, #txt-login-password").val("")
 	}
+});
+
+// Log out 
+
+$(".menu-logout").click(function(){
+    location.reload();
 });
 
 

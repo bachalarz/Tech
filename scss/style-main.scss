@@ -97,8 +97,8 @@ nav {
 
 }
 
-.ico-menu-close {
-	display: none;
+.ico-menu-close, .menu-admin, .menu-logout{
+	display: none; 
 }
 
 .flex {
@@ -256,7 +256,6 @@ footer {
 	}
 	.ico-menu {
 		display: none;
-
 	}
 	
 	footer { 

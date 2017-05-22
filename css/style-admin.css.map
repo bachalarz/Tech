@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,oCAAoC;AAEpC,oCAAoC",
+"sources": ["../scss/style-admin.scss"],
+"names": [],
+"file": "style-admin.css"
+}
