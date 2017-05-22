@@ -62,6 +62,7 @@
 	<script src="js/js-event.js"></script>
 
 	<script src="js/js-login.js"></script>
+	<script src="js/js-events-list.js"></script>
 
 
 

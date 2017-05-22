@@ -79,6 +79,7 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    display: none;
     background-color: white; }
     .ctn-inner-full #ctn-categories svg {
       width: 80px;
