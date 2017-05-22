@@ -2,7 +2,11 @@
 //		Main JS
 /**********************************/
 
+<<<<<<< HEAD
 var startpage = "events-list"; 
+=======
+var startpage = "frontpage"; // Startside kan indsættes her
+>>>>>>> master
 
 
 /**********************************/
@@ -80,17 +84,6 @@ $(document).on("click",".link", function() {
 
 });
 
-function fnHideView() {
-	$(".view").hide();
-}
-
-setView(startpage);
-function setView(input) { 
-	
-	$(".view").hide();
-	var page = input;
-	$(".view-"+page).css("display", "flex").hide().fadeIn();
-}
 
 
 /**********************************/
@@ -98,4 +91,20 @@ function setView(input) {
 /**********************************/
 
 
+function fnHideView() {
+	$(".view").hide();
+}
+
+function setView(input) { 
+	
+	$(".view").hide();
+	var page = input;
+	$(".view-frontpage").css("display", "flex").hide().fadeIn();
+}
+
+function setViewProfile() { 
+	
+	$(".view").hide();
+	$(".view-profile").css("display", "flex").hide().fadeIn();
+}
 

@@ -7,28 +7,64 @@
 @import 'constans/sass-flexbox.scss';
 
 
-.container-inner-wrapper {
-	border: solid;
+.ctn-inner-about-us {
 	width: 100%;
+	margin-bottom: 30px;
 	&-element {
-		
+	}
+	&-staff {
+		margin-top: 30px;
 	}
 	& img {
 		width: 100%;
+		margin-bottom: 30px;
 	}
+	& .ctn-inner-staff{
+	    	margin-top: 20px;
+	}    	
 }
 
-
-
-// SKAL FJERNES
-
-h1, h2, h3, h4, h5, h6 {
-	text-align: center;
+.logo-about-us {
+	width: 250px;
+	margin: 0 auto;
 }
 
-
-.view {
-    & .container {
-		width: auto;
+@media screen and ( min-width: 800px ) { 
+	.ctn-inner-about-us { 
+		
+	    & img {
+	    	width: 400px;
+	    }
+	    & .ctn-inner-staff{
+	    	& img {
+	    		width: 100%;
+	    	}
+	    }
+	    &-1{
+			flex-direction: row-reverse;
+			-webkit-flex-direction: row-reverse;
+			-moz-flex-direction: row-reverse;
+			& img{
+				margin: 0 0 0 40px;
+			}
+		}
+		&-2{
+			& img {
+				margin: 0 40px 0 0;
+			}
+		}
+		&-3{
+			flex-direction: row-reverse;
+			-webkit-flex-direction: row-reverse;
+			-moz-flex-direction: row-reverse;
+		}
+		&-4{
+			flex-direction: column;
+			-webkit-flex-direction: column;
+			-moz-flex-direction: column;
+		}
+	}
+	.logo-about-us img {
+		width: 250px !important;
 	}
 }
