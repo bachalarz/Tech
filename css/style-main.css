@@ -159,6 +159,15 @@ input {
   outline: none;
   border: 1px solid #95989A;
   padding: 0 8px; }
+  input[type="file"] {
+    border: none; }
+
+textarea {
+  outline: none;
+  border: 1px solid #95989A;
+  padding: 0 8px;
+  resize: vertical;
+  min-height: 200px; }
 
 nav {
   background: #FFFFFF;
