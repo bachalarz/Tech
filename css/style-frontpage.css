@@ -60,7 +60,8 @@
   justify-content: flex-end;
   align-items: center;
   padding-bottom: 20px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  margin-top: -20px; }
   .frontpage-start img {
     max-height: 70%; }
 
@@ -69,6 +70,16 @@
   display: flex;
   justify-content: center;
   margin-bottom: 40px; }
+  .frontpage-search div {
+    position: relative; }
+  .frontpage-search div .fa-search {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: grey; }
+  .frontpage-search div input {
+    height: 40px;
+    width: 300px; }
 
 .container-testimonials {
   width: 100%;
@@ -99,7 +110,7 @@
   justify-content: center; }
 
 .btn-all-events {
-  width: 30%; }
+  width: 40%; }
 
 @media screen and (min-width: 1100px) {
   .frontpage-start {

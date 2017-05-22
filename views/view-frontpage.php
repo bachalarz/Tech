@@ -7,12 +7,24 @@
 		<img src="img/tech_logo.png">
 			<h3>nerding out since the 90's</h3>
 		</div>
-		<div class="frontpage-search"> <input type="" name="" placeholder="search for events">
+
+		<div class="frontpage-search">
+			<div> 
+				<input class="frontpage-search-input" placeholder="Search for events">
+				<i class="fa fa-search link" data-go-to="events-list" aria-hidden="true"></i>
+			</div>
 		</div>
 		<h2>recommended events</h2>
 		<div class="slideshow-container">
   			<div class="mySlides fade">
-  				<img src="img/placeholder/seminar.jpg">
+  				<div class="img-slide-container img-slide-container-1">
+            		<div class="filter filter-1">
+            			<div class="info">
+            				<h3>awesome event</h3>
+            				<h4>copenhagen - 2. may - 100 DKKR</h4>
+            			</div>
+            		</div>
+          		</div>
   				<div>
   					<p>
   						Lorem Ipsum er ganske enkelt fyldtekst fra print- og typografiindustrien. Lorem Ipsum har været standard fyldtekst siden 1500-tallet, hvor en ukendt trykker sammensatte en tilfældig spalte for at trykke en bog til sammenligning af forskellige skrifttyper.
@@ -25,7 +37,14 @@
   			</div>
 
   			<div class="mySlides fade">
-  				<img src="img/placeholder/employer.jpg">
+  				<div class="img-slide-container img-slide-container-2">
+            		<div class="filter filter-2">
+            			<div class="info">
+            				<h3>awesome event</h3>
+            				<h4>copenhagen - 2. may - 100 DKKR</h4>
+            			</div>
+            		</div>
+          		</div>
   				<div>
   					<p>
   						Lorem Ipsum er ganske enkelt fyldtekst fra print- og typografiindustrien. Lorem Ipsum har været standard fyldtekst siden 1500-tallet, hvor en ukendt trykker sammensatte en tilfældig spalte for at trykke en bog til sammenligning af forskellige skrifttyper.
@@ -38,7 +57,14 @@
   			</div>
 
   			<div class="mySlides fade">
-  				<img src="img/placeholder/ipad.jpg">
+  				<div class="img-slide-container img-slide-container-1">
+            		<div class="filter filter-1">
+            			<div class="info">
+            				<h3>awesome event</h3>
+            				<h4>copenhagen - 2. may - 100 DKKR</h4>
+            			</div>
+            		</div>
+          		</div>
   				<div>
   					<p>
   						Lorem Ipsum er ganske enkelt fyldtekst fra print- og typografiindustrien. Lorem Ipsum har været standard fyldtekst siden 1500-tallet, hvor en ukendt trykker sammensatte en tilfældig spalte for at trykke en bog til sammenligning af forskellige skrifttyper.
@@ -62,7 +88,14 @@
 
 		<div class="noslide-container">
 			<div class="noslide">
-  				<img src="img/placeholder/seminar.jpg">
+  				<div class="img-slide-container img-slide-container-1">
+            		<div class="filter filter-1">
+            			<div class="info">
+            				<h3>awesome event</h3>
+            				<h4>copenhagen - 2. may - 100 DKKR</h4>
+            			</div>
+            		</div>
+          		</div>
   				<div>
   					<p>
   						Lorem Ipsum er ganske enkelt fyldtekst fra print- og typografiindustrien. Lorem Ipsum har været standard fyldtekst siden 1500-tallet, hvor en ukendt trykker sammensatte en tilfældig spalte for at trykke en bog til sammenligning af forskellige skrifttyper.
@@ -75,7 +108,14 @@
   			</div>
 
   			<div class="noslide">
-  				<img src="img/placeholder/employer.jpg">
+  				<div class="img-slide-container img-slide-container-2">
+            		<div class="filter filter-2">
+            			<div class="info">
+            				<h3>awesome event</h3>
+            				<h4>copenhagen - 2. may - 100 DKKR</h4>
+            			</div>
+            		</div>
+          		</div>
   				<div>
   					<p>
   						Lorem Ipsum er ganske enkelt fyldtekst fra print- og typografiindustrien. Lorem Ipsum har været standard fyldtekst siden 1500-tallet, hvor en ukendt trykker sammensatte en tilfældig spalte for at trykke en bog til sammenligning af forskellige skrifttyper.
@@ -90,7 +130,14 @@
 
 
   			<div class="noslide">
-  				<img src="img/placeholder/ipad.jpg">
+  				<div class="img-slide-container img-slide-container-3">
+            		<div class="filter filter-3">
+            			<div class="info">
+            				<h3>awesome event</h3>
+            				<h4>copenhagen - 2. may - 100 DKKR</h4>
+            			</div>
+            		</div>
+          		</div>
   				<div>
   					<p>
   						Lorem Ipsum er ganske enkelt fyldtekst fra print- og typografiindustrien. Lorem Ipsum har været standard fyldtekst siden 1500-tallet, hvor en ukendt trykker sammensatte en tilfældig spalte for at trykke en bog til sammenligning af forskellige skrifttyper.
@@ -108,13 +155,13 @@
 		<div class="container-testimonials">
 		<h2>our customers said</h2>
 			<div class="testimonials">
-				<div class="testimonial"><i class="fa fa-quote-left" aria-hidden="true"></i><br>Lorem Ipsum er ganske enkelt fyldtekst fra print- og typografiindustrien. <br>En ukendt trykker sammensatte en tilfældig spalte for at trykke en bog til sammenligning af forskellige skrifttyper.<br><i class="fa fa-quote-right" aria-hidden="true"></i><br><br>
+				<div class="testimonial"><i class="fa fa-quote-left" aria-hidden="true"></i><br><br>Lorem Ipsum er ganske enkelt fyldtekst fra print- og typografiindustrien. <br>En ukendt trykker sammensatte en tilfældig spalte for at trykke en bog til sammenligning af forskellige skrifttyper.<br><i class="fa fa-quote-right" aria-hidden="true"></i><br><br>
 				- SomeGuy Jensen, awesome event</div>
 
-				<div class="testimonial"><i class="fa fa-quote-left" aria-hidden="true"></i><br>Lorem Ipsum er ganske enkelt fyldtekst fra print- og typografiindustrien.<br><i class="fa fa-quote-right" aria-hidden="true"></i><br><br><br><br>
+				<div class="testimonial"><i class="fa fa-quote-left" aria-hidden="true"></i><br><br>Lorem Ipsum er ganske enkelt fyldtekst fra print- og typografiindustrien.<br><i class="fa fa-quote-right" aria-hidden="true"></i><br><br><br><br>
 				- SomeGuy Jensen, awesome event</div>
 
-				<div class="testimonial"><i class="fa fa-quote-left" aria-hidden="true"></i><br>Lorem Ipsum er ganske enkelt fyldtekst fra print- og typografiindustrien. <br>Lorem Ipsum har været standard fyldtekst siden 1500-tallet.<br><i class="fa fa-quote-right" aria-hidden="true"></i><br><br>
+				<div class="testimonial"><i class="fa fa-quote-left" aria-hidden="true"></i><br><br>Lorem Ipsum er ganske enkelt fyldtekst fra print- og typografiindustrien. <br>Lorem Ipsum har været standard fyldtekst siden 1500-tallet.<br><i class="fa fa-quote-right" aria-hidden="true"></i><br><br>
 				- SomeGuy Jensen, awesome event</div>
 			</div>
 			<img class="testimonial-image" src="img/placeholder/seminar.jpg">
