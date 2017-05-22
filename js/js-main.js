@@ -2,7 +2,7 @@
 //		Main JS
 /**********************************/
 
-var startpage = "login"; // Startside kan indsættes her
+var startpage = "frontpage"; // Startside kan indsættes her
 
 
 /**********************************/
