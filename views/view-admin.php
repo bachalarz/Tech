@@ -40,5 +40,9 @@
 		</div>
 
 	</div>
+
+	<?php
+		require "view-footer.php";
+	?>
 	
 </div>
