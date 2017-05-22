@@ -22,7 +22,9 @@
 	<link rel="stylesheet" type="text/css" href="css/style-login.css">
 	<link rel="stylesheet" type="text/css" href="css/style-partners.css">
 	<link rel="stylesheet" type="text/css" href="css/style-contact.css">
+
 	<link rel="stylesheet" type="text/css" href="css/style-profile.css">
+
 
 </head>
 <body>
@@ -56,7 +58,11 @@
 
 
 	<script src="js/js-main.js"></script>
+
+	<script src="js/js-event.js"></script>
+
 	<script src="js/js-login.js"></script>
+
 
 
 </body>
