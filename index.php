@@ -57,16 +57,12 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/sweetalert2/6.6.2/sweetalert2.min.js"></script>
 
-
 	<script src="js/js-main.js"></script>
 	<script src="js/js-event.js"></script>
 	<script src="js/js-login.js"></script>
-
 	<script src="js/js-admin.js"></script>
-
 	<script src="js/js-events-list.js"></script>
-
-
+	<script src="js/js-contact.js"></script>
 
 </body>
 </html>
