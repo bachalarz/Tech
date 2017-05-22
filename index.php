@@ -61,7 +61,12 @@
 	<script src="js/js-main.js"></script>
 	<script src="js/js-event.js"></script>
 	<script src="js/js-login.js"></script>
+<<<<<<< HEAD
 	<script src="js/js-admin.js"></script>
+=======
+	<script src="js/js-events-list.js"></script>
+
+>>>>>>> mbuyu
 
 
 </body>
