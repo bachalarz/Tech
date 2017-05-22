@@ -2,11 +2,7 @@
 //		Main JS
 /**********************************/
 
-<<<<<<< HEAD
-var startpage = "events-list"; 
-=======
 var startpage = "frontpage"; // Startside kan indsættes her
->>>>>>> master
 
 
 /**********************************/
