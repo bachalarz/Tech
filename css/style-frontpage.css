@@ -99,11 +99,7 @@
       width: 100%;
       text-align: right; }
     .container-testimonials .testimonials .testimonial {
-      width: 80%; }
-      .container-testimonials .testimonials .testimonial-2 {
-        display: none; }
-      .container-testimonials .testimonials .testimonial-3 {
-        display: none; }
+      width: 25%; }
   .container-testimonials .testimonial-image {
     background-image: url("../img/placeholder/techweek.jpg");
     background-size: cover;
@@ -118,20 +114,13 @@
 .btn-all-events {
   width: 40%; }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1100px) {
   .frontpage-start {
     height: 500px;
     padding-bottom: 40px;
     margin-bottom: 40px; }
 
   .btn-all-events {
-    width: 250px; }
-
-  .container-testimonials .testimonials .testimonial {
-    width: 25%; }
-    .container-testimonials .testimonials .testimonial-2 {
-      display: block; }
-    .container-testimonials .testimonials .testimonial-3 {
-      display: block; } }
+    width: 250px; } }
 
 /*# sourceMappingURL=style-frontpage.css.map */
