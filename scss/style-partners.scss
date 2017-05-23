@@ -106,7 +106,15 @@
 		margin: 0px 0 40px calc(-20% + 54px);
 		
 	}
-
-
-
 }
+
+
+@media screen and ( min-width: 1600px ){
+	.blue-divider{
+		width: 100%;
+		margin: 0px 0 3em 0;
+	}
+}
+
+
+
