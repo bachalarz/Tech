@@ -10,12 +10,19 @@
 			<div class="ctn-inner-full-search">
 
 				<div class="ctn-search-btn">
-					<div class="search">
-						<input type="text" name="event-search" class="lbl-event-search">
-						<span class="fa fa-search"></span>
-					</div>
+					<form>
+						
+						<div class="search">
+							<input type="text" name="event-search" class="lbl-event-search">
+							<span class="fa fa-search"></span>
+						</div>
+					</form>
 
 					<div class="btn-search-filter"></div>
+				</div>
+				<div class="ctn-prev-events">
+					Missed something good?
+					<div class="btn-prev-events btn-category inline-link" data-show-category="previous">Check out previous events</div>
 				</div>
 			</div>
 
@@ -218,7 +225,7 @@
 
 
 
-		  			<div class="noslide category-games">
+		  			<div class="noslide category-previous">
 		  				<div class="img-slide-container img-slide-container-3">
 		            		<div class="filter filter-3">
 		            			<div class="info">
