@@ -109,7 +109,16 @@
       background-color: white; }
       .ctn-inner-full .ctn-categories .ctn-categories-inner svg {
         width: 80px;
-        height: 80px; }
+        height: 80px;
+        transition: 500ms ease-out; }
+        .ctn-inner-full .ctn-categories .ctn-categories-inner svg circle {
+          fill-opacity: 0.8; }
+        .ctn-inner-full .ctn-categories .ctn-categories-inner svg:hover {
+          transform: scale(1.2); }
+          .ctn-inner-full .ctn-categories .ctn-categories-inner svg:hover #more-circle .cls-1 {
+            fill: blue; }
+          .ctn-inner-full .ctn-categories .ctn-categories-inner svg:hover circle {
+            fill-opacity: 1; }
       .ctn-inner-full .ctn-categories .ctn-categories-inner .btn-category {
         flex-basis: 50%;
         cursor: pointer;

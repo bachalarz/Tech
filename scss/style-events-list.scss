@@ -90,6 +90,19 @@
 			// .btn-category{
 				width: 80px;
 			    height: 80px;
+			    transition: 500ms ease-out;
+			    circle{
+
+			    	fill-opacity: 0.8;
+			    }
+				&:hover {
+					transform: scale(1.2);
+					#more-circle .cls-1{fill: blue;}
+					circle{
+
+			    		fill-opacity: 1;
+			    	}
+				}
 			}
 
 			.btn-category{
