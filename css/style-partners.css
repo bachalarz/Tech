@@ -115,7 +115,7 @@
 
   .blue-divider {
     height: 50px;
-    margin: 0px 0 40px calc(-20% + 27px); } }
+    margin: 0px 0 3em calc(-20% + 27px); } }
 @media screen and (min-width: 1100px) {
   .blue-divider {
     margin: 0px 0 40px calc(-20% + 54px); } }
