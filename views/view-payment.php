@@ -3,10 +3,10 @@
 <div class="view view-payment">
 	
 	<div class="container">
-		<div class="ctn-payment">
 			<h1>booking</h1>
+		<div class="ctn-payment">
 			<div class="payment-step payment-step-1">
-				<h2>1. Your shoppingcart</h2>
+				<h3>1. Your shoppingcart</h3>
 				<div class="payment-cart">
 					<h4>awesome event</h3>
 					<h5>copenhagen - 2. may - 100kr</h4>

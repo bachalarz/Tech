@@ -75,6 +75,17 @@
 
 @media screen and (min-width: 800px) {
   #btn-payment {
-    width: 250px; } }
+    width: 250px; }
+
+  .ctn-payment {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between; }
+
+  .payment-step {
+    width: 30%; }
+    .payment-step-1 h3 {
+      margin-bottom: 30px; } }
 
 /*# sourceMappingURL=style-payment.css.map */
