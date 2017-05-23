@@ -2,7 +2,9 @@
 //		Main JS
 /**********************************/
 
-var startpage = "payment"; // Startside kan indsættes her
+
+var startpage = "frontpage"; // Startside kan indsættes her
+
 
 
 /**********************************/
@@ -99,8 +101,12 @@ function setView(input) {
 }
 
 function setViewProfile() { 
-	
 	$(".view").hide();
 	$(".view-profile").css("display", "flex").hide().fadeIn();
+}
+
+function setViewEvent() { 
+	$(".view").hide();
+	$(".view-event").css("display", "flex").hide().fadeIn();
 }
 

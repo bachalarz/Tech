@@ -14,6 +14,8 @@
 				<p class="link menu-tab" data-go-to="contact">Contact</p>
 				<p class="link menu-tab menu-login" data-go-to="login">Login</p>
 				<p class="link menu-tab menu-profile" data-go-to="profile">Profile</p>
+				<p class="link menu-tab menu-admin" data-go-to="admin">Admin page</p>
+				<p class="link menu-tab menu-logout">Log out</p>
 			</nav>
 
 		</div>

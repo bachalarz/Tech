@@ -22,9 +22,12 @@
 	<link rel="stylesheet" type="text/css" href="css/style-login.css">
 	<link rel="stylesheet" type="text/css" href="css/style-partners.css">
 	<link rel="stylesheet" type="text/css" href="css/style-contact.css">
+
 	<link rel="stylesheet" type="text/css" href="css/style-payment.css">
 
+
 	<link rel="stylesheet" type="text/css" href="css/style-profile.css">
+	<link rel="stylesheet" type="text/css" href="css/style-admin.css">
 
 
 </head>
@@ -50,7 +53,11 @@
 	require_once "views/view-partners.php";	
 	require_once "views/view-contact.php";
 	require_once "views/view-profile.php";
+
 	require_once "views/view-payment.php";
+
+	require_once "views/view-admin.php";
+
 ?>
 
 	</div> <!-- #main-wrapper -->
@@ -60,11 +67,13 @@
 
 
 	<script src="js/js-main.js"></script>
-
 	<script src="js/js-event.js"></script>
-
 	<script src="js/js-login.js"></script>
 	<script src="js/js-payment.js"></script>
+
+	<script src="js/js-admin.js"></script>
+
+	<script src="js/js-events-list.js"></script>
 
 
 
