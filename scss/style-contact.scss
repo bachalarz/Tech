@@ -2,7 +2,51 @@
 //		Create Event
 /**********************************/
 
-@import 'constans/style-fonts';
 @import 'constans/style-colors';
 @import 'constans/sass-flexbox.scss';
 
+.frm-contact {
+	& p {
+		color: $gray-bg-1;
+		text-align: center;
+	}
+}
+
+.view-contact { 
+	& .fa {
+		margin: .5em .5em;
+		font-size: 40px;
+		color: #FFFFFF;
+	} 
+		& .contact-fa-wrapper {
+			margin-top: 20px;
+			@include display-flex();
+			@include justify-content(center);
+			background: $blue-bg-3;
+			& span {
+			text-align: center;
+		}
+	}
+}
+
+@media screen and ( min-width: 600px ) {
+	.view-contact { 
+		& .contact-fa-wrapper {
+			& .fa {
+				color: $gray-bg-1;
+			}
+		}
+			& .contact-fa-wrapper {
+				background: transparent;
+				& span {
+				text-align: center;
+			}
+		}
+	}
+}
+
+@media screen and ( min-width: 1000px ) {
+	.frm-contact {
+		margin-top: 100px !important;
+	}
+}
