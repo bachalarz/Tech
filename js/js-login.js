@@ -1,5 +1,5 @@
 /**********************************/
-//		Login JS
+//      Login JS
 /**********************************/
 
 var loginStatus = false; // true / false 
@@ -15,21 +15,21 @@ var userInfo = {
 logIn(loginStatus);
 
 function logIn(loginStatus){
-	if ( loginStatus == false ) {
-	} else if ( loginStatus == true ) {
-		$(".menu-login").hide();
-		$(".menu-profile").show();
+    if ( loginStatus == false ) {
+    } else if ( loginStatus == true ) {
+        $(".menu-login").hide();
+        $(".menu-profile").show();
         $(".menu-logout").show();
-	} else {
+    } else {
 
-	}
+    }
 }
 
 
 // Create user
 
 $("#btn-create-user").click(function(){
-	userInfo.firstName = $("#txt-create-user-first-name").val();
+    userInfo.firstName = $("#txt-create-user-first-name").val();
     userInfo.lastName = $("#txt-create-user-last-name").val();
     userInfo.email = $("#txt-create-user-email").val();
     userInfo.password = $("#txt-create-user-password").val();
@@ -45,30 +45,30 @@ $("#btn-create-user").click(function(){
 // Login
 
 $("#btn-login").click(function(){
-	var inputEmail = $("#txt-login-email").val();
-	var inputPassword = $("#txt-login-password").val();
+    var inputEmail = $("#txt-login-email").val();
+    var inputPassword = $("#txt-login-password").val();
 
-	if ( inputEmail == userInfo.email && inputPassword == userInfo.password) {
-		
-		$("#txt-edit-user-first-name").val(userInfo.firstName);
-		$("#txt-edit-user-last-name").val(userInfo.lastName);
-		$("#txt-edit-user-email").val(userInfo.email);
-		$("#txt-edit-user-password").val(userInfo.password);
-		swal({
+    if ( inputEmail == userInfo.email && inputPassword == userInfo.password) {
+        
+        $("#txt-edit-user-first-name").val(userInfo.firstName);
+        $("#txt-edit-user-last-name").val(userInfo.lastName);
+        $("#txt-edit-user-email").val(userInfo.email);
+        $("#txt-edit-user-password").val(userInfo.password);
+        swal({
             title: 'You are now signed in!',  
             text: 'You can now login',    
         }).then( function() {
-        	loginStatus = true;
-	    	logIn(loginStatus);
-			setViewProfile();
+            loginStatus = true;
+            logIn(loginStatus);
+            setViewProfile();
             if ( userInfo.role == "admin" ) {
                 $(".menu-admin").show();
             } 
         });
-	} else {
-		swal("Wrong login!", "Try again", "error");
-		$("#txt-login-email, #txt-login-password").val("")
-	}
+    } else {
+        swal("Wrong login!", "Try again", "error");
+        $("#txt-login-email, #txt-login-password").val("")
+    }
 });
 
 // Log out 
@@ -81,7 +81,7 @@ $(".menu-logout").click(function(){
 // Edit user
 
 $("#btn-edit-user").click(function(){
-	userInfo.firstName = $("#txt-edit-user-first-name").val();
+    userInfo.firstName = $("#txt-edit-user-first-name").val();
     userInfo.lastName = $("#txt-edit-user-last-name").val();
     userInfo.email = $("#txt-edit-user-email").val();
     userInfo.password = $("#txt-edit-user-password").val();
