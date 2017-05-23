@@ -1,0 +1,71 @@
+/**********************************/
+//		Payment
+/**********************************/
+
+@import 'constans/style-fonts';
+@import 'constans/style-colors';
+@import 'constans/sass-flexbox.scss';
+
+
+
+.ctn-payment {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.payment-step {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+
+	input {
+		margin: 10px;
+	}
+
+	&-3 {
+		.radio {
+			display: flex;
+			align-items: center;
+		}
+	}
+}
+
+.ctn-btn-payment{
+		display: flex;
+		justify-content: center;
+
+}
+
+#btn-payment {
+		width: 70%;
+}
+
+
+
+@media screen and ( min-width: 800px ) {
+	#btn-payment{
+		width: 250px;
+	}
+
+	.ctn-payment {
+		display: flex;
+		flex-direction: row;
+		align-items: baseline;
+		justify-content: space-between;
+	}
+
+	.payment-step {
+		width: 30%;
+
+		&-1 {
+			h3 {
+				margin-bottom: 30px;
+			}
+		}
+
+	}
+}
+
+
+

@@ -2,7 +2,9 @@
 //		Main JS
 /**********************************/
 
+
 var startpage = "frontpage"; // Startside kan indsættes her
+
 
 
 /**********************************/
