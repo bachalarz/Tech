@@ -1,8 +1,9 @@
 var sCurrentCategory;
 
-if(userInfo.role == "admin") {
+if(userInfo.role == "admin" && loginStatus) {
 	$(".ctn-event-edit").css("display", "block");
 }
+
 
 
 $(document).on("click", ".btn-search-filter", function() {
