@@ -67,6 +67,10 @@
   margin: 0 auto; }
 
 @media screen and (min-width: 800px) {
+  .ctn-text-pages {
+    width: 80%;
+    margin: 0 auto; }
+
   .ctn-inner-about-us img {
     width: 400px; }
   .ctn-inner-about-us .ctn-inner-staff img {

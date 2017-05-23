@@ -20,6 +20,7 @@ function logIn(loginStatus){
 		$(".menu-login").hide();
 		$(".menu-profile").show();
         $(".menu-logout").show();
+        fnCheckEventEditAccess();
 	} else {
 
 	}
