@@ -1,5 +1,6 @@
 /**********************************/
 /**********************************/
+/* Font family */
 /* COLORS */
 /* GRAY BAGROUND COLOR */
 /* HEADER BAGROUND COLOR */
@@ -14,14 +15,6 @@
 /*
     Display
  */
-.view-contact .contact-fa-wrapper {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -webkit-flexbox;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex; }
-
 /*
     Flex direction
  */
@@ -49,15 +42,6 @@
 /*
     Justify content
  */
-.view-contact .contact-fa-wrapper {
-  -webkit-box-pack: center;
-  -moz-box-pack: center;
-  -webkit-flex-pack: center;
-  -ms-flex-pack: center;
-  -moz-justify-content: center;
-  -webkit-justify-content: center;
-  justify-content: center; }
-
 /*
     Align items
  */
@@ -67,29 +51,5 @@
 /*
     Align content
  */
-.frm-contact p {
-  color: #95989A;
-  text-align: center; }
-
-.view-contact .fa {
-  margin: .5em .5em;
-  font-size: 40px;
-  color: #FFFFFF; }
-.view-contact .contact-fa-wrapper {
-  margin-top: 20px;
-  background: #0094D6; }
-  .view-contact .contact-fa-wrapper span {
-    text-align: center; }
-
-@media screen and (min-width: 600px) {
-  .view-contact .contact-fa-wrapper .fa {
-    color: #95989A; }
-  .view-contact .contact-fa-wrapper {
-    background: transparent; }
-    .view-contact .contact-fa-wrapper span {
-      text-align: center; } }
-@media screen and (min-width: 1000px) {
-  .frm-contact {
-    margin-top: 100px !important; } }
 
 /*# sourceMappingURL=style-contact.css.map */
