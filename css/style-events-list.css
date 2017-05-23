@@ -152,7 +152,8 @@
     .ctn-events .noslide-container .noslide .img-slide-container {
       width: 100%;
       height: 250px;
-      background-size: cover; }
+      background-size: cover;
+      position: relative; }
       .ctn-events .noslide-container .noslide .img-slide-container-1 {
         background-image: url("../img/placeholder/seminar.jpg"); }
       .ctn-events .noslide-container .noslide .img-slide-container-2 {
@@ -175,6 +176,15 @@
           background-color: rgba(0, 0, 0, 0.6);
           color: white;
           padding: 20px; }
+      .ctn-events .noslide-container .noslide .img-slide-container .ctn-event-edit {
+        display: none;
+        position: absolute;
+        top: 1em;
+        right: 1em;
+        font-size: 1.4em;
+        color: white; }
+        .ctn-events .noslide-container .noslide .img-slide-container .ctn-event-edit .fa {
+          cursor: pointer; }
     .ctn-events .noslide-container .noslide .noslide-actions {
       display: flex;
       justify-content: space-around;

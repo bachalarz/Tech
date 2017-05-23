@@ -52,29 +52,45 @@ $(document).on("click", ".search .fa-search", function() {
 
 
 function fnSearchEvents() {
-
+	
 	var sSearchInput = $(".lbl-event-search").val();
 	console.log(sSearchInput);
 
 	var aoEvents = $(".ctn-events .noslide .info");
 	$(".ctn-events .noslide-container .noslide").fadeOut();
 	
-	
 	for(var i= 0; i<aoEvents.length; i++) {
 		var oEvent = $(aoEvents[i]);
-		var sTitle = oEvent.text();
+		var sTitle = oEvent.children("h3").text();
 		console.log(sTitle);
-		if( (sTitle).startsWith(sSearchInput) ) {
+		if( (sTitle).startsWith(sSearchInput) || !sSearchInput ) {
 			console.log("match");
+			console.log(oEvent);
+			oEvent.parent().parent().parent().fadeIn();
 
 		}
 
 	}
+
 }
 
 
+$(document).on("click", ".ctn-event-edit .fa-trash", function(){
 
-// $(document).on("click", ".btn-prev-events", function() {
-	
-// })
+	console.log("delete");
+	$(this).parent().parent().parent().parent().remove();
+})
+
+
+$(document).on("click", ".ctn-event-edit .fa-edit", function(){
+
+	console.log("fa-edit");
+})
+
+
+
+
+
+
+
 

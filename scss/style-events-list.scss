@@ -161,6 +161,7 @@
 			width: 100%;
 			height: 250px;
 			background-size: cover;
+			position: relative;
 
 			&-1 {
 				background-image: url("../img/placeholder/seminar.jpg");
@@ -199,6 +200,19 @@
 					padding: 20px;
 
 				}
+			}
+
+			.ctn-event-edit{
+				display: none;
+				position: absolute;
+				top: 1em;
+			    right: 1em;
+			    font-size: 1.4em;
+			    color: white;
+
+			    .fa{
+			    	cursor: pointer;
+			    }
 			}
 
 				

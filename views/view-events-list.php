@@ -61,6 +61,10 @@
 					<div class="noslide category-web">
 		  				<div class="img-slide-container img-slide-container-1">
 		            		<div class="filter filter-1">
+		            			<div class="ctn-event-edit">
+		            				<div class="fa fa-edit fa-fw"></div>
+		            				<div class="fa fa-trash fa-fw"></div>
+		            			</div>
 		            			<div class="info">
 		            				<h3>awesome event</h3>
 		            				<h4>copenhagen - 2. may - 100 DKKR</h4>
@@ -81,6 +85,10 @@
 		  			<div class="noslide category-some">
 		  				<div class="img-slide-container img-slide-container-2">
 		            		<div class="filter filter-2">
+		            			<div class="ctn-event-edit">
+		            				<div class="fa fa-edit fa-fw link" data-go-to=""></div>
+		            				<div class="fa fa-trash fa-fw"></div>
+		            			</div>
 		            			<div class="info">
 		            				<h3>awesome event</h3>
 		            				<h4>copenhagen - 2. may - 100 DKKR</h4>
@@ -103,6 +111,10 @@
 		  			<div class="noslide category-games">
 		  				<div class="img-slide-container img-slide-container-3">
 		            		<div class="filter filter-3">
+		            			<div class="ctn-event-edit">
+		            				<div class="fa fa-edit fa-fw"></div>
+		            				<div class="fa fa-trash fa-fw"></div>
+		            			</div>
 		            			<div class="info">
 		            				<h3>awesome event</h3>
 		            				<h4>copenhagen - 2. may - 100 DKKR</h4>
@@ -123,6 +135,10 @@
 		  			<div class="noslide category-web">
 		  				<div class="img-slide-container img-slide-container-1">
 		            		<div class="filter filter-1">
+		            			<div class="ctn-event-edit">
+		            				<div class="fa fa-edit fa-fw"></div>
+		            				<div class="fa fa-trash fa-fw"></div>
+		            			</div>
 		            			<div class="info">
 		            				<h3>awesome event</h3>
 		            				<h4>copenhagen - 2. may - 100 DKKR</h4>
@@ -143,6 +159,10 @@
 		  			<div class="noslide category-some">
 		  				<div class="img-slide-container img-slide-container-2">
 		            		<div class="filter filter-2">
+		            			<div class="ctn-event-edit">
+		            				<div class="fa fa-edit fa-fw"></div>
+		            				<div class="fa fa-trash fa-fw"></div>
+		            			</div>
 		            			<div class="info">
 		            				<h3>awesome event</h3>
 		            				<h4>copenhagen - 2. may - 100 DKKR</h4>
@@ -165,6 +185,10 @@
 		  			<div class="noslide category-games">
 		  				<div class="img-slide-container img-slide-container-3">
 		            		<div class="filter filter-3">
+		            			<div class="ctn-event-edit">
+		            				<div class="fa fa-edit fa-fw"></div>
+		            				<div class="fa fa-trash fa-fw"></div>
+		            			</div>
 		            			<div class="info">
 		            				<h3>awesome event</h3>
 		            				<h4>copenhagen - 2. may - 100 DKKR</h4>
@@ -186,6 +210,10 @@
 		  			<div class="noslide category-web">
 		  				<div class="img-slide-container img-slide-container-1">
 		            		<div class="filter filter-1">
+		            			<div class="ctn-event-edit">
+		            				<div class="fa fa-edit fa-fw"></div>
+		            				<div class="fa fa-trash fa-fw"></div>
+		            			</div>
 		            			<div class="info">
 		            				<h3>awesome event</h3>
 		            				<h4>copenhagen - 2. may - 100 DKKR</h4>
@@ -206,6 +234,10 @@
 		  			<div class="noslide category-some">
 		  				<div class="img-slide-container img-slide-container-2">
 		            		<div class="filter filter-2">
+		            			<div class="ctn-event-edit">
+		            				<div class="fa fa-edit fa-fw"></div>
+		            				<div class="fa fa-trash fa-fw"></div>
+		            			</div>
 		            			<div class="info">
 		            				<h3>awesome event</h3>
 		            				<h4>copenhagen - 2. may - 100 DKKR</h4>
@@ -228,6 +260,10 @@
 		  			<div class="noslide category-previous">
 		  				<div class="img-slide-container img-slide-container-3">
 		            		<div class="filter filter-3">
+		            			<div class="ctn-event-edit">
+		            				<div class="fa fa-edit fa-fw"></div>
+		            				<div class="fa fa-trash fa-fw"></div>
+		            			</div>
 		            			<div class="info">
 		            				<h3>awesome event</h3>
 		            				<h4>copenhagen - 2. may - 100 DKKR</h4>
