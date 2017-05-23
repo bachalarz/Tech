@@ -1,7 +1,11 @@
 var sCurrentCategory;
 
-if(userInfo.role == "admin" && loginStatus) {
-	$(".ctn-event-edit").css("display", "block");
+function fnCheckEventEditAccess(){
+
+	if(userInfo.role == "admin" && loginStatus) {
+		$(".ctn-event-edit").css("display", "block");
+	}
+
 }
 
 
