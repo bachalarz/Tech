@@ -1,5 +1,10 @@
 var sCurrentCategory;
 
+if(userInfo.role == "admin") {
+	$(".ctn-event-edit").css("display", "block");
+}
+
+
 $(document).on("click", ".btn-search-filter", function() {
 	console.log("search");
 	$(".ctn-categories").slideToggle();
@@ -86,6 +91,8 @@ $(document).on("click", ".ctn-event-edit .fa-edit", function(){
 
 	console.log("fa-edit");
 })
+
+
 
 
 
