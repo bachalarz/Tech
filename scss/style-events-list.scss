@@ -67,6 +67,10 @@
     			font-style: oblique;
     			cursor: pointer;
     			margin-left: 5px;
+
+    			&:hover{
+    				color: $blue-bg-1;
+    			}
 	   		}
 
    		}
@@ -90,6 +94,25 @@
 			// .btn-category{
 				width: 80px;
 			    height: 80px;
+			    transition: 500ms ease-out;
+
+				&:hover {
+					-webkit-transform: scale(1.1);
+					transform: scale(1.1);
+					circle{
+						filter: url('#darken');
+					}
+				}
+
+			}
+
+
+			.selected{
+				-webkit-transform: scale(1.1);
+				transform: scale(1.1);
+				circle{
+					filter: url('#darken');
+				}
 			}
 
 			.btn-category{

@@ -1,7 +1,11 @@
 var sCurrentCategory;
 
-if(userInfo.role == "admin" && loginStatus) {
-	$(".ctn-event-edit").css("display", "block");
+function fnCheckEventEditAccess(){
+
+	if(userInfo.role == "admin" && loginStatus) {
+		$(".ctn-event-edit").css("display", "block");
+	}
+
 }
 
 
@@ -24,15 +28,17 @@ $(document).on("click", ".btn-category", function() {
 
 	var sCategory = $(this).attr("data-show-category");
 	console.log(sCategory);
+	$("svg").removeClass("selected");
 
 	if(sCurrentCategory == sCategory) {
 		$(".ctn-events .noslide-container .noslide").fadeIn();
-		$(this).removeClass("active-category");
+		$(this).children("svg").removeClass("selected");
 		sCurrentCategory = "";
 	} else {
 		$(".ctn-events .noslide-container .noslide").fadeOut();
 		$(".category-"+sCategory).fadeIn();
-		$(this).addClass("active-category");
+		$(this).children("svg").addClass("selected");
+		console.log(this);
 		sCurrentCategory = sCategory;
 	}
 

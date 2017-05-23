@@ -97,6 +97,8 @@
         font-style: oblique;
         cursor: pointer;
         margin-left: 5px; }
+        .ctn-inner-full-search .ctn-prev-events .btn-prev-events:hover {
+          color: #015BB5; }
   .ctn-inner-full .ctn-categories {
     width: 100%;
     display: none; }
@@ -109,7 +111,18 @@
       background-color: white; }
       .ctn-inner-full .ctn-categories .ctn-categories-inner svg {
         width: 80px;
-        height: 80px; }
+        height: 80px;
+        transition: 500ms ease-out; }
+        .ctn-inner-full .ctn-categories .ctn-categories-inner svg:hover {
+          -webkit-transform: scale(1.1);
+          transform: scale(1.1); }
+          .ctn-inner-full .ctn-categories .ctn-categories-inner svg:hover circle {
+            filter: url("#darken"); }
+      .ctn-inner-full .ctn-categories .ctn-categories-inner .selected {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1); }
+        .ctn-inner-full .ctn-categories .ctn-categories-inner .selected circle {
+          filter: url("#darken"); }
       .ctn-inner-full .ctn-categories .ctn-categories-inner .btn-category {
         flex-basis: 50%;
         cursor: pointer;
