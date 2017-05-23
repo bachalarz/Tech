@@ -47,6 +47,24 @@
 	#btn-payment{
 		width: 250px;
 	}
+
+	.ctn-payment {
+		display: flex;
+		flex-direction: row;
+		align-items: baseline;
+		justify-content: space-between;
+	}
+
+	.payment-step {
+		width: 30%;
+
+		&-1 {
+			h3 {
+				margin-bottom: 30px;
+			}
+		}
+
+	}
 }
 
 
