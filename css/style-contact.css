@@ -67,6 +67,9 @@
 /*
     Align content
  */
+.view-contact .contact-fa-wrapper .fa:hover {
+  color: #3Eb7ED; }
+
 .frm-contact p {
   color: #95989A;
   text-align: center; }
