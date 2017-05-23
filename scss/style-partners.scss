@@ -6,6 +6,11 @@
 @import 'constans/style-colors';
 @import 'constans/sass-flexbox.scss';
 
+
+.view-partners .ctn-text-pages h3{
+	display: none;
+}
+
 .ctn-inner-partners {
 	width: 100%;
 	margin-bottom: 30px;
@@ -26,9 +31,9 @@
 }
 
 .blue-divider{
-	width: 100%;
+	width: 100vw;
 	height: 30px;
-	margin-bottom: 40px;
+	margin: 0 0 40px -20px;
 	background: $blue-bg-3;
 }
 .ctn-inner-partners-1 {
@@ -43,6 +48,11 @@
 	    display: -ms-flexbox;
 	    display: -webkit-flex;
 	    display: flex;
+	}
+
+	.view-partners .ctn-text-pages h3{
+		display: block;
+		margin: 2em 0 1em 0;
 	}
 
 	.ctn-inner-partners { 
@@ -82,7 +92,29 @@
 	.logo-about-us img {
 		width: 200px !important;
 	}
+
 	.blue-divider{
 		height: 50px;
+		margin: 0px 0 3em calc(-20% + 27px);
 	}
 }
+
+
+@media screen and ( min-width: 1100px ) { 
+
+	.blue-divider{
+		margin: 0px 0 40px calc(-20% + 54px);
+		
+	}
+}
+
+
+@media screen and ( min-width: 1600px ){
+	.blue-divider{
+		width: 100%;
+		margin: 0px 0 3em 0;
+	}
+}
+
+
+
