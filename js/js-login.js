@@ -20,7 +20,12 @@ function logIn(loginStatus){
         $(".menu-login").hide();
         $(".menu-profile").show();
         $(".menu-logout").show();
+<<<<<<< HEAD
     } else {
+=======
+        fnCheckEventEditAccess();
+	} else {
+>>>>>>> mbuyu
 
     }
 }

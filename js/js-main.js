@@ -21,9 +21,9 @@ $( document ).ready(function() {
 	    });
     	$(".logo-wrapper").animate({
 	        left: '0',
-	        top: '-20px',
-	        width: '100px',
-	        height: '80px'
+	        top: '5px',
+	        width: '56px',
+	        height: '56px'
 	    }, function() {
 	    	$(".view-"+startpage).css("display", "flex").hide().fadeIn();
 	    	$(".logo-wrapper").addClass("link");
@@ -77,7 +77,8 @@ $(document).on("click",".link", function() {
 		$(".view-"+sGoToWindow).css("display", "flex").hide().fadeIn();
 		if ( menuStatus !== false ) {
 			hideMenu();
-		}	
+		}
+		window.scrollTo(0, 0);	
 	} 
 
 });
