@@ -7,6 +7,10 @@
 @import 'constans/sass-flexbox.scss';
 
 
+.view-partners .ctn-text-pages h3{
+	display: none;
+}
+
 .ctn-inner-partners {
 	width: 100%;
 	margin-bottom: 30px;
@@ -44,6 +48,11 @@
 	    display: -ms-flexbox;
 	    display: -webkit-flex;
 	    display: flex;
+	}
+
+	.view-partners .ctn-text-pages h3{
+		display: block;
+		margin: 2em 0 1em 0;
 	}
 
 	.ctn-inner-partners { 

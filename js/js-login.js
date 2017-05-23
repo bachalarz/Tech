@@ -28,6 +28,7 @@ function logIn(loginStatus){
 >>>>>>> mbuyu
 
     }
+	}
 }
 
 

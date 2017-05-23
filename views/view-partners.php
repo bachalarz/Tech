@@ -20,6 +20,8 @@
 				
 			</div>
 
+			<h3>Current and previous partners</h3>
+
 			<div class="ctn-inner ctn-inner-partners ctn-inner-partners-2">
 				<div class="ctn-inner-element">
 					<img src="img/partners/samsung.png">
