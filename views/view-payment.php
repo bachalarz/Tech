@@ -41,7 +41,7 @@
 				<input min="1" type="text" id="txt-payment-cvc" placeholder="Cvc*">
 				</div>
 				<div class="radio">
-					<input type="radio" class="radio-accept"> By ordering you agree to our terms and conditions*
+					<input type="radio" id="radio-accept"> By ordering you agree to our terms and conditions*
 				</div>
 				<div class="radio">
 					<input type="radio"> Sign me up for the newsletter!
