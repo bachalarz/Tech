@@ -157,14 +157,14 @@ button {
 input {
   min-height: 25px;
   outline: none;
-  border: 1px solid #0094D6;
+  border: 1px solid #015BB5;
   padding: 0 8px; }
   input[type="file"] {
     border: none; }
 
 textarea {
   outline: none;
-  border: 1px solid #0094D6;
+  border: 1px solid #015BB5;
   padding: 0 8px;
   resize: vertical;
   min-height: 200px; }
