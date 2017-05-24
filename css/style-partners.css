@@ -1,127 +1,57 @@
-/**********************************/
-/**********************************/
-/* Font family */
-/* COLORS */
-/* GRAY BAGROUND COLOR */
-/* HEADER BAGROUND COLOR */
-/* FOOTER BAGROUND COLOR */
-/**
-* SassFlexbox
-* Manage Flexbox in Sass easily.
-*
-* @author     Samuel Marchal (zessx)
-* @version    0.1
+/*
+Error: Invalid CSS after "...lc(-20% + 27px)": expected "{", was ";"
+        on line 102 of scss/style-partners.scss
+
+97: 	}
+98: 
+99: 	.blue-divider{
+100: 		height: 50px;
+101: <<<<<<< HEAD
+102: 		margin: 0px 0 3em calc(-20% + 27px);
+103: 	}
+104: }
+105: 
+106: 
+107: @media screen and ( min-width: 1100px ) { 
+
+Backtrace:
+scss/style-partners.scss:102
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1207:in `expected'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1137:in `expected'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1132:in `tok!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:665:in `block'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:685:in `block_child'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:677:in `block_contents'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:666:in `block'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:685:in `block_child'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:677:in `block_contents'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:666:in `block'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:409:in `media_directive'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:222:in `special_directive'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:197:in `directive'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:684:in `block_child'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:677:in `block_contents'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:125:in `stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:41:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/engine.rb:406:in `_to_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:331:in `block in watch'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:252:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
 */
-/*
-    Display
- */
-/*
-    Flex direction
- */
-/*
-    Flex wrap
- */
-/*
-    Flex flow
- */
-/*
-    Order
- */
-/*
-    Flex grow
- */
-/*
-    Flex shrink
- */
-/*
-    Flex basis
- */
-/*
-    Flex
- */
-/*
-    Justify content
- */
-/*
-    Align items
- */
-/*
-    Align self
- */
-/*
-    Align content
- */
-.view-partners .ctn-text-pages h3 {
-  display: none; }
-
-.ctn-inner-partners {
-  width: 100%;
-  margin-bottom: 30px; }
-  .ctn-inner-partners-staff {
-    margin-top: 30px; }
-  .ctn-inner-partners img {
-    width: 100%;
-    margin-bottom: 30px; }
-
-.logo-about-us {
-  width: 250px;
-  margin: 0 auto; }
-
-.blue-divider {
-  width: 100vw;
-  height: 30px;
-  margin: 0 0 40px -20px;
-  background: #0094D6; }
-
-.ctn-inner-partners-1 {
-  display: none; }
-
-@media screen and (min-width: 800px) {
-  .ctn-inner-partners-1 {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -webkit-flexbox;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex; }
-
-  .view-partners .ctn-text-pages h3 {
-    display: block;
-    margin: 2em 0 1em 0; }
-
-  .ctn-inner-partners img {
-    width: 400px; }
-  .ctn-inner-partners .ctn-inner-staff img {
-    width: 100%; }
-  .ctn-inner-partners-1 {
-    flex-direction: row-reverse;
-    -webkit-flex-direction: row-reverse;
-    -moz-flex-direction: row-reverse; }
-    .ctn-inner-partners-1 img {
-      margin: 0 0 0 40px; }
-  .ctn-inner-partners-2 img {
-    margin: 0 40px 0 0; }
-  .ctn-inner-partners-3 {
-    flex-direction: row-reverse;
-    -webkit-flex-direction: row-reverse;
-    -moz-flex-direction: row-reverse; }
-  .ctn-inner-partners-4 {
-    flex-direction: column;
-    -webkit-flex-direction: column;
-    -moz-flex-direction: column; }
-
-  .logo-about-us img {
-    width: 200px !important; }
-
-  .blue-divider {
-    height: 50px;
-    margin: 0px 0 3em calc(-20% + 27px); } }
-@media screen and (min-width: 1100px) {
-  .blue-divider {
-    margin: 0px 0 40px calc(-20% + 54px); } }
-@media screen and (min-width: 1600px) {
-  .blue-divider {
-    width: 100%;
-    margin: 0px 0 3em 0; } }
-
-/*# sourceMappingURL=style-partners.css.map */
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...lc(-20% + 27px)\": expected \"{\", was \";\"\A         on line 102 of scss/style-partners.scss\A \A 97: 	}\A 98: \A 99: 	.blue-divider{\A 100: 		height: 50px;\A 101: <<<<<<< HEAD\A 102: 		margin: 0px 0 3em calc(-20% + 27px);\A 103: 	}\A 104: }\A 105: \A 106: \A 107: @media screen and ( min-width: 1100px ) { "; }
