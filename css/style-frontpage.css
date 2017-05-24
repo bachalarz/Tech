@@ -1,55 +1,150 @@
-/*
-Error: Invalid CSS after "...olid $gray-bg-1": expected "{", was ";"
-        on line 47 of scss/style-frontpage.scss
-
-42: 	div input {
-43: 		height: 40px;
-44: 		width: 300px;
-45: 		border-radius: 6px;
-46: <<<<<<< HEAD
-47: 		border: 1px solid $gray-bg-1;
-48: =======
-49: >>>>>>> mbuyu
-50: 	}
-51: }
-52: 
-
-Backtrace:
-scss/style-frontpage.scss:47
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1207:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1137:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1132:in `tok!'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:665:in `block'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:685:in `block_child'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:677:in `block_contents'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:666:in `block'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:685:in `block_child'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:677:in `block_contents'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:666:in `block'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:658:in `ruleset'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:684:in `block_child'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:677:in `block_contents'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:125:in `stylesheet'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:41:in `parse'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/engine.rb:406:in `_to_tree'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `each'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:331:in `block in watch'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:252:in `call'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+/**********************************/
+/**********************************/
+/* Font family */
+/* COLORS */
+/* GRAY BAGROUND COLOR */
+/* HEADER BAGROUND COLOR */
+/* FOOTER BAGROUND COLOR */
+/**
+* SassFlexbox
+* Manage Flexbox in Sass easily.
+*
+* @author     Samuel Marchal (zessx)
+* @version    0.1
 */
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...olid $gray-bg-1\": expected \"{\", was \";\"\A         on line 47 of scss/style-frontpage.scss\A \A 42: 	div input {\A 43: 		height: 40px;\A 44: 		width: 300px;\A 45: 		border-radius: 6px;\A 46: <<<<<<< HEAD\A 47: 		border: 1px solid $gray-bg-1;\A 48: =======\A 49: >>>>>>> mbuyu\A 50: 	}\A 51: }\A 52: "; }
+/*
+    Display
+ */
+/*
+    Flex direction
+ */
+/*
+    Flex wrap
+ */
+/*
+    Flex flow
+ */
+/*
+    Order
+ */
+/*
+    Flex grow
+ */
+/*
+    Flex shrink
+ */
+/*
+    Flex basis
+ */
+/*
+    Flex
+ */
+/*
+    Justify content
+ */
+/*
+    Align items
+ */
+/*
+    Align self
+ */
+/*
+    Align content
+ */
+.frontpage-start {
+  width: 100vw;
+  height: 300px;
+  background-color: #015BB5;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 20px;
+  margin: -20px 0 20px -20px; }
+  .frontpage-start img {
+    max-height: 70%; }
+
+.frontpage-search {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px; }
+  .frontpage-search div {
+    position: relative; }
+  .frontpage-search div .fa-search {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: grey; }
+  .frontpage-search div input {
+    height: 40px;
+    width: 300px;
+    border-radius: 6px;
+    border: 1px solid #95989A; }
+
+.container-testimonials {
+  width: 100vw;
+  background-color: #015BB5;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding-top: 40px;
+  margin: 40px 0px 40px -20px; }
+  .container-testimonials .testimonials {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-around; }
+    .container-testimonials .testimonials .fa-quote-right {
+      width: 100%;
+      text-align: right; }
+    .container-testimonials .testimonials .testimonial {
+      width: 80%; }
+      .container-testimonials .testimonials .testimonial-2 {
+        display: none; }
+      .container-testimonials .testimonials .testimonial-3 {
+        display: none; }
+  .container-testimonials .testimonial-image {
+    background-image: url("../img/placeholder/techweek.jpg");
+    background-size: cover;
+    height: 400px;
+    width: 100%; }
+
+.btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+
+.btn-all-events {
+  width: 40%; }
+
+@media screen and (min-width: 800px) {
+  .frontpage-start {
+    height: 500px;
+    padding-bottom: 40px;
+    margin-bottom: 40px; }
+
+  .btn-all-events {
+    width: 250px; }
+
+  .container-testimonials .testimonials .testimonial {
+    width: 25%; }
+    .container-testimonials .testimonials .testimonial-2 {
+      display: block; }
+    .container-testimonials .testimonials .testimonial-3 {
+      display: block; } }
+@media screen and (min-width: 1600px) {
+  .blue-divider {
+    width: 100%;
+    margin: 0px 0 3em 0; }
+
+  .frontpage-start {
+    width: 100%;
+    margin: -20px 0 0px -20px; }
+
+  .container-testimonials {
+    width: 100%;
+    margin: 40px 0px 0px -20px; } }
+
+/*# sourceMappingURL=style-frontpage.css.map */

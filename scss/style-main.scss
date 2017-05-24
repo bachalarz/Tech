@@ -63,7 +63,7 @@ button {
 input {
 	min-height: 25px;
     outline: none;
-    border: 1px solid $blue-bg-3;
+    border: 1px solid $blue-bg-1;
     padding: 0 8px;
     &[type="file"]{
     	border: none;
@@ -72,7 +72,7 @@ input {
 
 textarea {
 	outline: none;
-    border: 1px solid $blue-bg-3;
+    border: 1px solid $blue-bg-1;
     padding: 0 8px;
     resize: vertical;
     min-height: 200px;
